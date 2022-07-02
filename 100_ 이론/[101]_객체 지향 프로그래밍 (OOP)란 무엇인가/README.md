@@ -1,32 +1,6 @@
 # [TIL : 2022-07-01]
 
-## [101_01]. 객체 지향 프로그래밍 (OOP)이란 무엇인가?
 
-OOP : Object Oriented Programming 
-낮은 비용으로 코드의 변화가 가능해야 한다. 
-패러다임중 하나에 속함 
+- [[101_00]_객체지향이란 무엇인가?](https://github.com/JuniorMSG/TIL/tree/main/100_%20%EC%9D%B4%EB%A1%A0/%5B101%5D_%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20(OOP)%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)  [2022-07-01] 
+- [[101_01] 절차 지향과 객체지향](https://github.com/JuniorMSG/TIL/blob/main/100_%20%EC%9D%B4%EB%A1%A0/%5B101%5D_%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20(OOP)%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/%5B101_01%5D_%EC%A0%88%EC%B0%A8%20%EC%A7%80%ED%96%A5%EA%B3%BC%20%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5.md)  [2022-07-01] 
 
-## 비용 ( 기술 부채 )을 증가시키는 주요 원인은?
-- 코드 분석 시간 증가
-- 코드 변경 시간 증가
-
-Software maintenance is not “keep it working like before.” <br>
-It is “keep being useful in a chamgimg world”
-
-## 낮은 비용으로 변화할 수 있어야함.
-
-이를 위한 방법
-
-- 패러다임
-    - **객체 지향**, 함수형, 리액티브
-    
-- 코드, 설계, 아키텍처
-    - DRY, TDD, SOLID, DDD, …
-    - 클린 아키텍쳐, MSA
-    
-- 업무 프로세스 / 문화
-    - 애자일, DevOps, …
-
-
-## 객체 지향은 어떻게 비용을 낮춰주는가?
-캡슐화 + 다형성(추상화)
