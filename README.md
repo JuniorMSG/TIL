@@ -7,4 +7,4 @@ Today I Learn
 
 ## 300. Front-End Programming
 
-## [900. 독서] (https://github.com/JuniorMSG/TIL/tree/main/900_%EB%8F%85%EC%84%9C)
+## [900. 독서](https://github.com/JuniorMSG/TIL/tree/main/900_%EB%8F%85%EC%84%9C)
