@@ -1,17 +1,21 @@
 # 2022-07-04
+### 하루하루 성장해나가자  
 
 # TIL 320. React
+## 최지민 강사님의 리액트 강의 공부 내용 정리 입니다.
+
+
 
 ## 언어 순위  
-![](images/01_language.png)
+![](images/[320_01]_language.png)
 
 
 ## Web Frameworks  
-![](images/02_webFrameWorks.png)
+![](images/[320_02]_webFrameWorks.png)
 
 
 ## Other tools  
-![](images/03_others.png)
+![](images/[320_03]_others.png)
 
 
 
@@ -25,4 +29,47 @@
 
 
 ## https://ko.reactjs.org/
-![](images/04_react.png)
+![](images/[320_04]_react.png)
+
+## 프론트엔드 프레임워크의 추구하는 방향
+    리엑트는 라이브러리
+    Vues는 프로그래시브 프레임워크
+    Angular은 개발 플랫폼 
+
+
+## 생태계
+    해당 기술에 대한 관심도 / 실제 사용 빈도 / 사용자 수  
+    관련 라이브러리가 많다.
+    문제를 해결할 방법을 찾기가 쉽다.
+    나와 같은 고민을 하는 / 했던 살마이 많다.
+    실무에서 사용할 확률이 높다.
+
+## 웹에서 어떤것을 쓰는지 알아보는 Extensions.
+![](images/%5B320_05%5D_wappalyzer.png.png)
+
+
+
+## 기술적 근간
+    Virtual DOM / JSX / Flux / Functional Programming
+    새로운 기술을 배우는 시작점으로 좋다.
+
+
+## with 라이브러리
+    생태계가 성숙해가면서
+    고민의 깊이또한 성숙해졌다.
+    리액트를 풍성하게 해주는 라이브러리들이 많고
+    새로운 좋은 라이브러리들이 계속 나오고 있다. (swr, framer motion... 등)
+    https://www.framer.com/docs/examples/
+
+
+## Goal
+    프로그래밍의 흥미  
+    탄탄한 기초  
+    새로운 것을 익힘  
+    혼자 할 수 있는 힘  
+
+## 기술 트랜드
+    기술이 빠르게 바뀌기 때문에 최신의 트랜드에 따른 기술을 배우는게 중요해졌다.
+    라이브러리의 공식 문서를 토대로 익힌다.
+    패턴을 찾고 새로운 기술을 익히는 요령을 습득해라.
+
