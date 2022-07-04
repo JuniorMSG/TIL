@@ -22,12 +22,28 @@
         </>
       );
 
+      const MainTR = () => (
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+      );
+
       const element = (
         <>
           <Paint title="Good" description="good" />
           {paint("MS", "G")}
           {paint("SS", "Q")}
           {paint("React", "FrameWorks")}
+
+          <table>
+            <tbody>
+              <MainTR />
+              <MainTR />
+              <MainTR />
+            </tbody>
+          </table>
         </>
       );
 
