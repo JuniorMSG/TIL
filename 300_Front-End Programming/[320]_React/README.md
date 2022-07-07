@@ -45,7 +45,8 @@
     실무에서 사용할 확률이 높다.
 
 ## 웹에서 어떤것을 쓰는지 알아보는 Extensions.
-![](images/%5B320_05%5D_wappalyzer.png.png)
+    https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg
+![](images/%5B320_05%5D_wappalyzer.png)
 
 
 
