@@ -82,5 +82,20 @@ public interface ApplicationContext extends EnvironmentCapable,
 ---
 
 ## Application Contexts & Resource Paths
-
 applicationContext(스프링의 핵심설정)을 이루는 설정값을 가져오는 방법들
+
+```java
+// let's create an applicationContext
+ApplicationContext ctx = new ClassPathXmlApplicationContext("conf/appContext.xml");
+
+ApplicationContext ctx =
+    new FileSystemXmlApplicationContext("conf/appContext.xml");
+
+ApplicationContext ctx =
+    new FileSystemXmlApplicationContext("classpath:conf/appContext.xml");
+
+// then you can use ctx as a Spring
+Bear bear = (Bear) ctx.getBean("bear");
+```
+
+---
