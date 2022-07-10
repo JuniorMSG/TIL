@@ -3,6 +3,11 @@
 
 # 스프링 프레임워크 핵심기술
 
+# Spring의 핵심 요소
+- 제어 역전(IoC, Inversion of Control)
+- 관점 지향 프로그래밍(AOP, Aspect Oriented Programming)
+- 서비스 추상화(PSA, Portable Service Abstraction)
+
 ## Core (DI - Dependency Injection, IoC)
 ## AOP (Aspect Oriented Programming)
 ## Validation, Data binding
@@ -20,3 +25,5 @@
   * 스프링 코드 자체가 하나의 좋은 참고 소스
 * 높은 코드 품질을 유지하려 함
   * 스프링 프로젝트 githup은 아주 좋은 참고 소스이자 PR과 이슈 관리도 좋은 프로세스 참고용
+
+
