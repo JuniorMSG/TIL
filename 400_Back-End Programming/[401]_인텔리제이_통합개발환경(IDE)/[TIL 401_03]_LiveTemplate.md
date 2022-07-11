@@ -4,3 +4,6 @@
 ![img.png](img.png)
 
 ![img_1.png](img_1.png)
+
+
+![img_2.png]([TIL 401_04]_편리한기능 Macro_01.png)
