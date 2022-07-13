@@ -1,4 +1,12 @@
- # TIL 401. 통합개발환경(IDE)
+# 400_Back-End Programming
+## [401]_인텔리제이_통합개발환경(IDE)
+* [[TIL 401_01]_단축키.md](%5BTIL%20401_01%5D_단축키.md)
+* [[TIL 401_02]_자주 쓰는 단축키.md](%5BTIL%20401_02%5D_자주%20쓰는%20단축키.md)
+* [[TIL 401_03]_LiveTemplate.md](%5BTIL%20401_03%5D_LiveTemplate.md)
+* [[TIL 401_04]_편리한기능 Macro.md](%5BTIL%20401_04%5D_편리한기능%20Macro.md)
+  
+
+* [intellij-단축키모음집-windows-.pdf](intellij-단축키모음집-windows-.pdf)
 
  ## 대표적인 IDE
     Eclipse
@@ -24,8 +32,6 @@
     UI가 예쁘다
     
 ## [IntelliJ 설치](https://www.jetbrains.com/ko-kr/idea/download/#section=windows)
-
-
 
 ![image](https://user-images.githubusercontent.com/22822369/178097397-0129c162-e6fd-4c64-8a19-7c629b650807.png)
 
