@@ -26,11 +26,11 @@ public void method(String request) {
 - org.springframework.lang.NonNull 사용
 
 - 메서드 파라미터에 붙이는 경우 : null이라는 데이터가 들어오는 것을 사전에 방지함
-![img_6.png](img_6.png)
+![img_6.png](rsc/[410_08]_Null Safety_01.png)
 - 프로퍼티에 붙이는 경우 : null을 저장하는 경우 경고
-![img_7.png](img_7.png)
+![img_7.png](rsc/[410_08]_Null Safety_02.png)
 - 메서드에 붙이는 경우 : null을 리턴하는 경우 경고, 응답값을 저장하거나 활용하는 쪽도 NonNull이라고 신뢰하고 사용
-![img_8.png](img_8.png)
+![img_8.png](rsc/[410_08]_Null Safety_03.png)
 
 ---
 
@@ -39,7 +39,7 @@ public void method(String request) {
 - ★ @NonNull과 반대로 해당 데이터가 null일 수 있음을 명시함
 - 해당 어노테이션이 붙은 값을 사용하는 경우 null check를 항상 수행하도록 경고
 
-![img_9.png](img_9.png)
+![img_9.png](rsc/[410_08]_Null Safety_04.png)
 
 ---
 
