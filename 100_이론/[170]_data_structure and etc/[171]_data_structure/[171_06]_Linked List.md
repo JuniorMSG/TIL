@@ -19,3 +19,9 @@
 
 ![img_1.png](rsc/171_06_Linked List_02.png)
 ![img_2.png](rsc/171_06_Linked List_03.png)
+
+
+# 더블 링크드 리스트(Doubly linked list) 
+    이중 연결 리스트라고도 함
+![img.png](img.png)
+
