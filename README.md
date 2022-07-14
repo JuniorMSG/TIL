@@ -1,7 +1,7 @@
-
 # [TIL] Index
     Today I Learn
-## [100_이론](.)
+
+## [100_이론]()
 ## [200_Clean Code, Refactoring]
 ## [300_Front-End Programming]
 ## [400_Back-End Programming]

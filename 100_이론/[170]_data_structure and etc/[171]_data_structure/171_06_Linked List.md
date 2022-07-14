@@ -23,5 +23,5 @@
 
 # 더블 링크드 리스트(Doubly linked list) 
     이중 연결 리스트라고도 함
-![img.png](img.png)
+![img.png](rsc/171_06_Linked List_01.png)
 

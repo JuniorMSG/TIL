@@ -10,6 +10,9 @@
     방법2: 정수가 음수인지 확인해서, 음수일 때만, -1을 곱하기
     다양한 알고리즘 중 어느 알고리즘이 더 좋은지를 분석하기 위해, 복잡도를 정의하고 계산함
 
+## 한번에 이해하기 힘든 항목임..
+    프로그램 개발에 있어서 크게 
+
 ## 알고리즘 복잡도 계산 항목
     시간 복잡도: 알고리즘 실행 속도
     공간 복잡도: 알고리즘이 사용하는 메모리 사이즈
@@ -34,7 +37,6 @@
     시간 복잡도 계산은 반복문이 핵심 요소임을 인지하고, 계산 표기는 최상, 평균, 최악 중, 최악의 시간인 Big-O 표기법을 중심으로 익히면 됨
 
 
-
 ### 3. 대문자 O 표기법
 * 빅 오 표기법, Big-O 표기법 이라고도 부름
 * O(입력)
@@ -48,26 +50,28 @@
   - **표현식에 가장 큰 영향을 미치는 n 의 단위로 표기합니다.**
   - n이 1이든 100이든, 1000이든, 10000이든 실행을
     - 무조건 2회(상수회) 실행한다: O(1) 
-       ```python
-            if n > 10:
-                 print(n)
-       ```
+```python
+    if n > 10:
+         print(n)
+```  
     - n에 따라, n번, n + 10 번, 또는 3n + 10 번등 실행한다: O(n)
-       ```python
-            variable = 1
-            for num in range(3):
-                for index in range(n):
-                     print(index)
-       ```
+
+
+ ```python
+      variable = 1
+      for num in range(3):
+          for index in range(n):
+               print(index)
+ ```
     - n에 따라, $n^2$번, $n^2$ + 1000 번, 100$n^2$ - 100, 또는 300$n^2$ + 1번등 실행한다: O($n^2$)
-       ```python
-            variable = 1
-            for i in range(300):
-                for num in range(n):
-                    for index in range(n):
-                         print(index)
-       ```    
-![img_1.png](img_1.png) 
+ ```python
+      variable = 1
+      for i in range(300):
+          for num in range(n):
+              for index in range(n):
+                   print(index)
+ ```    
+![img_1.png](jupyter notebook/171_07_time complexity_01.png) 
 
 * 빅 오 입력값 표기 방법
   - 예: 
