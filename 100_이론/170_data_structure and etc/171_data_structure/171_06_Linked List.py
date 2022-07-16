@@ -1,4 +1,4 @@
-# [171]_data_structure
+# 171_data_structure
 ## [171_04]_Queue.py
 
 """

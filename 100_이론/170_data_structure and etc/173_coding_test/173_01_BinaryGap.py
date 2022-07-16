@@ -1,5 +1,5 @@
-# [172]_coding_test
-## [172_01]_BinaryGap.py
+# 173_coding_test
+## 173_01_BinaryGap.py
 
 """
     A binary gap within a positive integer N is any maximal sequence of consecutive zeros that is surrounded by ones at both ends in the binary representation of N.

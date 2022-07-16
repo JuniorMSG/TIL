@@ -1,4 +1,4 @@
-# [171]_data_structure
+# 171_data_structure
 ## [171_08]_Hash_Table.md
 
 # 해쉬 테이블 (Hash Table) 간단 구현 해보기
