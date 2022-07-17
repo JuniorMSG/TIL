@@ -67,3 +67,56 @@ def palindrome(string):
 
 print(f'palindrome => {palindrome("MOMOM")}')
 print(f'palindrome => {palindrome("MOSSM")}')
+
+
+""" 
+    문제 4. 
+        1, 정수 n에 대해
+        2. n이 홀수이면 3 X n + 1 을 하고,
+        3. n이 짝수이면 n 을 2로 나눕니다.
+        4. 이렇게 계속 진행해서 n 이 결국 1이 될 때까지 2와 3의 과정을 반복합니다.
+"""
+def math_one(num, cnt=0):
+    cnt += 1
+    print(f'math_one_func {num} {cnt}')
+    if num == 1:
+        return num, f'실행회수 : {cnt}회'
+    if num % 2 == 1:
+        return math_one(3 * num + 1, cnt)
+    else:
+        return math_one(num / 2, cnt)
+
+import random
+num = random.randint(1, 50)
+print(f' num => {num}, math_one => {math_one(num, 0)}')
+
+
+""" 
+    문제 5.  정수 4를 1, 2, 3의 조합으로 나타내는 방법은 다음과 같이 총 7가지가 있음
+            1+1+1+1
+            1+1+2
+            1+2+1
+            2+1+1
+            2+2
+            1+3
+            3+1
+            정수 n이 입력으로 주어졌을 때, n을 1, 2, 3의 합으로 나타낼 수 있는 방법의 수를 구하시오
+
+    정수 n을 만들 수 있는 경우의 수를 리턴하는 함수를 f(n) 이라고 하면
+    f(n)은 f(n-1) + f(n-2) + f(n-3) 과 동일하다는 패턴
+    출처: ACM-ICPC > Regionals > Asia > Korea > Asia Regional - Taejon 2001 
+"""
+
+
+def recursive_5(data):
+    if data == 1:
+        return 1
+    elif data == 2:
+        return 2
+    elif data == 3:
+        return 4
+    return recursive_5(data - 1) + recursive_5(data - 2) + recursive_5(data - 3)
+
+import random
+num = random.randint(1, 50)
+print(f' num => {num}, recursive_5 => {recursive_5(num)}')
