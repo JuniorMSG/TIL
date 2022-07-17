@@ -55,12 +55,15 @@ print(f'data_lst2 => {data_lst} sum => {sum_list(data_lst)}')
     MOTOR - ROTOM 
 """
 
-def palindrome(n):
-    print(n)
-    if n == 1:
-        return n
 
-    if n % 2 == 1:
-        return (palindrome((3 * n) + 1))
+def palindrome(string):
+    if len(string) <= 1:
+        return True
+
+    if string[0] == string[-1]:
+        return palindrome(string[1:-1])
     else:
-        return (palindrome(int(n / 2)))
+        return False
+
+print(f'palindrome => {palindrome("MOMOM")}')
+print(f'palindrome => {palindrome("MOSSM")}')
