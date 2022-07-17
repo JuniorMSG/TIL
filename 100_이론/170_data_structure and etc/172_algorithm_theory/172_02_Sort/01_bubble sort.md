@@ -13,11 +13,33 @@
 ### 2. 버블 정렬 (bubble sort) 란?
 * 두 인접한 데이터를 비교해서, 앞에 있는 데이터가 뒤에 있는 데이터보다 크면, 자리를 바꾸는 정렬 알고리즘
 
-#### 직접 눈으로 보면 더 이해가 쉽다: https://visualgo.net/en/sorting
+#### https://visualgo.net/en/sorting
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" width=600/>
 
 > 출처: https://en.wikipedia.org/wiki/Bubble_sort
 
-### 3. 어떻게 코드로 만들까?
-> 알고리즘 연습 방법에 기반해서 단계별로 생각해봅니다.
+### 3. 알고리즘 분석
+    반복문이 두 개 O( 𝑛2 )
+    최악의 경우,  𝑛∗(𝑛−1)2 
+    완전 정렬이 되어 있는 상태라면 최선은 O(n)
+
+```python
+import random
+
+def bubblesort(data):
+    for index in range(len(data) - 1):
+        swap = False
+        for index2 in range(len(data) - index - 1):
+            if data[index2] > data[index2 + 1]:
+                data[index2], data[index2 + 1] = data[index2 + 1], data[index2]
+                swap = True
+
+        if swap == False:
+            break
+    return data
+
+data_list = random.sample(range(100), 50)
+print(len(data_list) , data_list)
+print (bubblesort(data_list))
+```
