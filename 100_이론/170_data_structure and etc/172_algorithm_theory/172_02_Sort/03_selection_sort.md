@@ -1,5 +1,5 @@
 # 170_data_structure and etc
-## 172_04_selection_sort.md
+## 03_selection_sort.md
 
 
 ### 선택 정렬 (selection sort) 란?

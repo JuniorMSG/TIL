@@ -1,5 +1,5 @@
 # 170_data_structure and etc
-## 172_03_insertion_sort.md
+## 02_insertion_sort.md
 
 ### 삽입 정렬 (insertion sort) 란?
 * 삽입 정렬은 두 번째 인덱스부터 시작

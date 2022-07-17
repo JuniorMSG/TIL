@@ -1,5 +1,5 @@
 # 170_data_structure and etc
-## 172_02_bubble sort.md
+## 01_bubble sort.md
 
 ### 1. 정렬 (sorting) 이란?
 - 정렬 (sorting): 어떤 데이터들이 주어졌을 때 이를 정해진 순서대로 나열하는 것
