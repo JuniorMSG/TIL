@@ -31,8 +31,11 @@
 - 최적의 해에 가까운 값을 구하는 방법 중의 하나임
 
 ### 예
-![img.png](01_Greed_Algorithm_02.png)
-![img_2.png](01_Greed_Algorithm_03.png)  
+![img.png](rsc/01_Greed_Algorithm_02.png)
+![img_2.png](rsc/01_Greed_Algorithm_03.png)  
 * 1번 그림의 경우엔 최적의 수가 나오지만
 * 2번 그림의 경우엔 20 + 1 = 21 / 10 + 15  25로 Greedy 알고리즘이 더 큰 수가 나오게됨
 * 근사치 추정을 하는 알고리즘임
+
+
+
