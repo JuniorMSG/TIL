@@ -1,12 +1,16 @@
-# 400_Back-End Programming
-## [401]_인텔리제이_통합개발환경(IDE)
-* [[TIL 401_01]_단축키.md](%5BTIL%20401_01%5D_단축키.md)
-* [[TIL 401_02]_자주 쓰는 단축키.md](%5BTIL%20401_02%5D_자주%20쓰는%20단축키.md)
-* [[TIL 401_03]_LiveTemplate.md](%5BTIL%20401_03%5D_LiveTemplate.md)
-* [[TIL 401_04]_편리한기능 Macro.md](%5BTIL%20401_04%5D_편리한기능%20Macro.md)
-  
+# 401_인텔리제이_통합개발환경(IDE)
 
+----
+## 목차
+* [01. 단축키](01_shortCut.md)
+* [02. 내가 자주 쓰는 단축키 목록](02_myShortCut.md)
+* [03. 다양한 기능들](03_variousFn.md)
 * [intellij-단축키모음집-windows-.pdf](intellij-단축키모음집-windows-.pdf)
+ 
+[뒤로](../README.md)  
+
+----
+
 
  ## 대표적인 IDE
     Eclipse
