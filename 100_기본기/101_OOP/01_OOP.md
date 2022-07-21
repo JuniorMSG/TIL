@@ -1,7 +1,15 @@
 # 객체지향이란 무엇인가
-[뒤로](README.md) / [다음](02_Polymorphism.md)
+## Index
+* [절차 지향 vs 객체 지향](#절차지향-vs-객체지향)
+* [02. 객체지향의 특징 다형성 ](02_Polymorphism.md)
+* [02. 객체지향의 특징 추상화 ](03_Abstraction.md)
 
-# 절차 지향 vs 객체 지향 
+ 
+[뒤로](README.md) / [다음](02_Polymorphism.md)
+----
+
+
+# 절차지향 vs 객체지향 
 
 ---
 ## 절차 지향
