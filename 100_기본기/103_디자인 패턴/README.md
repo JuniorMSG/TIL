@@ -1,6 +1,6 @@
 # 디자인 패턴
-* [디자인 패턴이란?](01_Design_Pattern.md)
-* [객체지향 프로그래밍](02_OOP.md)
+* [01. 디자인 패턴이란?](01_Design_Pattern.md)
+* [02. 객체지향 프로그래밍](02_OOP.md)
 
 [뒤로](../README.md)  
 
