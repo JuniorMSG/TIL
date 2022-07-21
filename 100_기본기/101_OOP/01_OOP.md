@@ -1,8 +1,8 @@
 # 객체지향이란 무엇인가?
 
-* [01. 절차 지향 vs 객체 지향](#01_--vs--)
-* [02. 다형성(Polymorphism)이란?](#02-polymorphism)
-* [03. 추상화(Abstraction)이란?](#03-abstraction)
+* [01. 절차 지향 vs 객체 지향](#01_절차-지향-vs-객체-지향)
+* [02. 다형성(Polymorphism)이란?](#다형성(Polymorphism)이란?)
+* [03. 추상화(Abstraction)이란?](#추상화(Abstraction)이란?)
 
 [뒤로](README.md)
 
@@ -39,7 +39,7 @@
 
 
 
-## 02. 다형성(Polymorphism)이란?
+## 다형성(Polymorphism)이란?
 > 여러 (poly) 모습(morph)을 갖는 것  
 > 객체 지향에서는 한 객체가 여러 타입을 갖는 것  
 > 한 객체가 여러 타입의 기능을 제공   
@@ -78,7 +78,7 @@
 
 [뒤로](README.md) / [위로](#객체지향이란-무엇인가?)
 
-## 03. 추상화(Abstraction)이란?
+## 추상화(Abstraction)이란?
     데이터나 프로세스 등을 의미가 비슷한 개념이나
     의미 있는 표현으로 정의하는 과정
 
