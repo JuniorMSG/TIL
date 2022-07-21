@@ -119,7 +119,7 @@
 [뒤로](README.md) / [위로](#객체지향이란-무엇인가)
 
 
-## 03. 객체 지향 설계
+## 03. 객체지향 설계
 - Design Heuristics  
   **Abstract class vs. Concrete Class**  (추상 클래스 vs 구체적인 클래스)  
   **Class Inheritance vs. Object Composition**  (재사용적 측면 상속 vs 합성) 보통은 합성을 사용한다.  
