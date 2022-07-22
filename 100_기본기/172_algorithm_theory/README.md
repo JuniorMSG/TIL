@@ -7,7 +7,7 @@
 * [06. 그래프](06_Graph/README.md)
 * [07. 탐욕 알고리즘](07_Greedy/README.md)
 * [08. 최단경로](08_최단경로/README.md)
-* [09. 최소 신장 트리](09_SpanningTree/READEME.md)
+* [09. 최소 신장 트리](09_SpanningTree/README.md)
 
 [뒤로](../README.md)  
 
