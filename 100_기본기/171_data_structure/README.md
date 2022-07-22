@@ -1,8 +1,8 @@
 # 데이터구조 
+* []()
 
-    언어는 Python으로 작성합니다요~
-    빠르게 배워야 할 것
-    나중에 배워야 할 것 (O)
-    반복해 배워야 할 것
+[뒤로](../README.md)  
 
-## https://www.toptal.com/python#hiring-guide
+
+## 무엇을 할 것인가?
+    데이터 구조를 공부하자
