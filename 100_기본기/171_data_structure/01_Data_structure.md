@@ -130,7 +130,9 @@ print (m_count)
 
 ### Reference
 1. [노마드코더 - 스택과 큐 간단한 영상](https://www.youtube.com/watch?v=Nk_dGScimz8&list=PL7jH19IHhOLMdHvl3KBfFI70r9P0lkJwL&index=7)
-2. [구현코드](03_Queue.py)
+2. [wiki](https://ko.wikipedia.org/wiki/%ED%81%90_(%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0))
+3. [구현코드](03_Queue.py)
+
 [뒤로](README.md) / [위로](#data_structure)
 
 
@@ -138,8 +140,8 @@ print (m_count)
 ### Stacks이란?
     1. 스택은 일종의 규칙이다.
     2. 추상적 자료구조 (ADT - Abstract Data Type)이다.
-    3. LIFO(Last In First Out) 구조  / 한쪽 끝에서만 자료를 넣거나 뺄 수 있는 구조
-    4. 데이터를 제한적으로 접근할 수 있는 구조다.
+    3. LIFO(Last In First Out) 선형 구조라고 부른다.
+    4. 데이터를 제한적으로 접근할 수 있는 구조다. => 한쪽 끝에서만 자료를 넣거나 뺄 수 있는 구조
     5. 스택 구조는 프로세스 실행 구조의 가장 기본이다. 함수 호출시 프로세스 실행 구조가 보통 스택
 
 
@@ -172,14 +174,17 @@ print (m_count)
 
 ### Reference
 1. [노마드코더 - 스택과 큐 간단한 영상](https://www.youtube.com/watch?v=Nk_dGScimz8&list=PL7jH19IHhOLMdHvl3KBfFI70r9P0lkJwL&index=7)
-2. [구현코드](04_Stack.py)
+2. [wiki](https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%9D)
+3. [구현코드](04_Stack.py)
+
 [뒤로](README.md) / [위로](#data_structure)
 
 
 
-## 05.
+## 05.ㅣ
 ### Reference
 1. [노마드코더 - 스택과 큐 간단한 영상](https://www.youtube.com/watch?v=Nk_dGScimz8&list=PL7jH19IHhOLMdHvl3KBfFI70r9P0lkJwL&index=7)
-2. [구현코드](04_Stack.py)
+3. [구현코드](04_Stack.py)
+
 [뒤로](README.md) / [위로](#data_structure)
 
