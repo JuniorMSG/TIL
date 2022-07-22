@@ -1,8 +1,8 @@
-# 170_data_structure and etc
-## 172_algorithm_theory
+# 작성규칙
+* [01. 알고리즘 연습방법](01_content.md)
+* [02. 컨텐츠 2번 ](02_content_02.md)
 
-    언어는 Python으로 작성합니다요~
+[뒤로](../README.md)  
 
 
-
-## 1. [정렬](172_02_Sort/README.md)
+## 무엇을 할 것인가?

@@ -1,5 +1,5 @@
 # 172_algorithm_theory
-## 172_07_Greedy
+## 07_Greedy
 
 """ https://www.acmicpc.net/problem/11399
     문제

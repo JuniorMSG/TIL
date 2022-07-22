@@ -1,4 +1,10 @@
-# 400_Back-End Programming
-## 498_common_sense
+# 백엔드 관련 기본 지식 정리
+* [01. 세션, 쿠키, 토큰](01_Session,%20Cookie,%20Token.md)
+* [02. API](02_OOP.md)
 
-## 잡다한 백엔드 지식을 발견하면 적어두는 곳! 
+[뒤로](../README.md)  
+
+
+## 무엇을 할 것인가?
+    잡다한 백엔드 지식을 발견하면 적어두는 곳! 
+

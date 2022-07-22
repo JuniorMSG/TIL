@@ -1,5 +1,4 @@
-# [170]_algorithm and coding Test
-## [171]_data_structure
+# 데이터구조 
 
     언어는 Python으로 작성합니다요~
     빠르게 배워야 할 것

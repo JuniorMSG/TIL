@@ -1,4 +1,4 @@
-# 172_06_Graph
+# 06_Graph
 ## 02_Breadth-First_Search.md
 
 """

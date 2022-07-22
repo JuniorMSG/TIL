@@ -1,4 +1,4 @@
-# 172_05_Search
+# 05_Search
 ## 01_binary_search.py
 
 def binary_search(data, search):

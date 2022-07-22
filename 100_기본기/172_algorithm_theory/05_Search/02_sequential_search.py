@@ -1,4 +1,4 @@
-# 172_05_Search
+# 05_Search
 ## 02_sequential_search.py
 
 from random import *
