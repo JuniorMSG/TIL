@@ -1,5 +1,4 @@
-# 171_data_structure
-## [171_04]_Queue.py
+# 03_Queue.py
 
 import queue
 

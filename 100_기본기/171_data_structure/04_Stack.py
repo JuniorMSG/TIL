@@ -1,6 +1,4 @@
-# 171_data_structure
-## [171_04]_Queue.py
-
+# 04_Stack.py
 """
     스택 (Stack)
     * 데이터를 제한적으로 접근할 수 있는 구조
