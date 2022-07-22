@@ -1,15 +1,23 @@
-# [171]_data_structure
-## [171_01]_Data_structure.md
+# data_structure
+* [01. 데이터 구조란?](#데이터-구조란)
+* [02. 대표적인 자료구조 Array](#배열(Array))
+* [03. ](#3)
+> Reference  
 
-    자료구조와 알고리즘은 프로그래밍의 기본이다.
-    Clean Code! 작성을 함께 해보자.
+[뒤로](README.md) / [위로](#data_structure)
 
-## 자료구조란?
+## 데이터 구조란?
 * 자료구조, 데이터 구조, Data structure 
   * 대량의 데이터를 효율적으로 관리할 수 있는 데이터의 구조
   * 코드상에서 효율적으로 데이터를 처리하기 위해, 데이터 특성에 따라, 체계적으로 데이터를 구조화해야 함
   * 어떤 데이터 구조를 사용하느냐에 따라, 코드 효율이 달라짐
 
+### 데이터를 어떻게 하느냐에 따라서 속도에 영향을 준다.
+    어떠한 작업에 어떠한 데이터 구조를 언제, 어떻게 쓰는지 아는 것이 해당 어플리케이션의 속도에 영향을 준다.
+    1. 검색
+    2. 읽기 
+    3. 삽입
+    4. 삭제
 
 ### 효율적으로 데이터를 관리하는 예
     우편번호: 5자리 우편번호로 국가의 기초구역을 제공
@@ -18,30 +26,61 @@
 ### 대표적인 자료구조
     배열, 스택, 큐, 링크드 리스트, 해쉬 테이블, 힙 등
 
-## 알고리즘이란?
-* 알고리즘, algorithm
-    * 어떤 문제를 풀기 위한 절차/방법
-    * 어떤 문제에 대해, 특정한 '입력'을 넣으면, 원하는 '출력'을 얻을 수 있도록 만드는 프로그래밍
-    
-
-## 자료구조와 알고리즘이 중요한 이유
-    어떤 자료구조와 알고리즘을 쓰느냐에 따라, 성능이 천지차!
-    프로그래밍엔 정답이 없고 방향이 가지 각색이기 때문에 
-    프로그래밍을 잘 할 수 있는 기술과 역량을 익힐 수 있다
-
-## 환경설정
-    AnaConda 
-    conda create -n ds python=3.6.8
-    activate ds 
-    pip install --upgrade pip
-    pip install jupyter
-
-### jupyter notebook 란?
-    Editor(PyCharm) VS jupyter notebook
-    한줄 한줄 코드 실행 결과 확인이 쉽다.
-    문서와 코드를 함께 작성/저장할 수 있다.
 
 
-![img.png](rsc/%5B171_01%5D_Data_structure_01.png)
+## 배열(Array)
 
-![img.png](rsc/%5B171_01%5D_Data_structure_02.png)
+    1. 데이터를 나열하고, 각 데이터를 인덱스에 대응하도록 구성한 데이터 구조
+    2. 파이썬에서는 리스트 타입이 배열 기능을 제공하고 있음
+
+### 배열을 사용하는 이유 
+    1. 같은 종류의 데이터를 효율적으로 관리하기 위해 사용
+    2. 같은 종류의 데이터를 순차적으로 저장
+
+#### 장점
+    1. 데이터를 읽을때 빠르게 읽을 수 있다.
+
+#### 단점
+    1. 배열의 크기를 미리 선언해야한다. (파이썬은 거의 ArrayList랑 비슷해서 크게 상관없다)
+    2. 검색 / 추가 / 삭제가 쉽지 않고 느리다.
+
+#### Memory 관점에서
+    READ : 인덱스로 읽으므로 매우 빠르다.
+    Search : 전체를 검사해야 한다. (느리다)
+    Insert : 
+        Best-Case : 배열 끝에 추가할 때 
+        Comm-Case : 배열 중간에 추가할 때
+        Bad-Case : 배열에 앞에 추가할 때
+        Worst-Case: 배열이 꽉차서 복사하고 추가할 때 
+    DELETE : Insert랑 비슷함.
+        Best-Case : 배열 끝에 추가할 때 
+        Comm-Case : 배열 중간에 추가할 때
+        Bad-Case : 배열에 앞에 추가할 때
+        Worst-Case: 배열이 꽉차서 복사하고 추가할 때 
+
+
+```python
+data = [1,2,3,4,5]
+print(data)
+
+data = [[1, 2, 3] , [4, 5, 6], [7, 8 ,9]]
+print(data)
+print(data[0][0])
+print(data[1][1])
+# 다음 dataset에서 전체 이름 안에 M이 몇번 나왔는지 빈도수 출력
+
+dataset = ['Braund, Mr. Owen Harris',
+'Cumings, Mrs. John Bradley (Florence Briggs Thayer)',
+'Heikkinen, Miss. Laina',
+'Futrelle, Mrs. Jacques Heath (Lily May Peel)']
+m_count = 0
+for data in dataset:
+    for index in range(len(data)):
+        if data[index] == 'M':
+            m_count += 1
+print (m_count)
+
+```
+[뒤로](README.md) / [위로](#data_structure)
+
+
