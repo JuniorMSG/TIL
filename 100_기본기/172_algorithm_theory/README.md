@@ -1,4 +1,4 @@
-# 작성규칙
+# 알고리즘 이론 및 연습
 * [01. 알고리즘 연습방법](01_AlgorithmPractic.md)
 * [02. 정렬](02_Sort/README.md)
 * [03. 재귀](03_recursive_call/README.md)
