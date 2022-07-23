@@ -1,5 +1,5 @@
 # 알고리즘 이론 및 연습
-* [01. 알고리즘 연습방법](01_AlgorithmPractic.md)
+* [01. 알고리즘 연습방법](01_question/01_AlgorithmPractic.md)
 * [02. 정렬](02_Sort/README.md)
 * [03. 재귀](03_recursive_call/README.md)
 * [04. 동적계획법, 분할정복](04_동적%20계획법,%20분할%20정복/README.md)
