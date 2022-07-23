@@ -13,7 +13,8 @@
 
     입력
     첫째 줄에 테스트 케이스의 개수가 주어진다.
-    각 테스트 케이스는 한줄로 이루어져 있고, 강산이가 입력한 순서대로 길이가 L인 문자열이 주어진다. (1 ≤ L ≤ 1,000,000) 강산이가 백스페이스를 입력했다면, '-'가 주어진다.
+    각 테스트 케이스는 한줄로 이루어져 있고, 강산이가 입력한 순서대로 길이가 L인 문자열이 주어진다. (1 ≤ L ≤ 1,000,000)
+    강산이가 백스페이스를 입력했다면, '-'가 주어진다.
     이때 커서의 바로 앞에 글자가 존재한다면, 그 글자를 지운다. 화살표의 입력은 '<'와 '>'로 주어진다. 이때는 커서의 위치를 움직일 수 있다면, 왼쪽 또는 오른쪽으로 1만큼 움직인다. 나머지 문자는 비밀번호의 일부이다.
     물론, 나중에 백스페이스를 통해서 지울 수는 있다. 만약 커서의 위치가 줄의 마지막이 아니라면, 커서 및 커서 오른쪽에 있는 모든 문자는 오른쪽으로 한 칸 이동한다.
 
@@ -27,14 +28,39 @@
     예제 출력 1
     BAPC
     ThIsIsS3Cr3t
-    출처
+
+    스택 두 개를 만들고 스택 두 개의 중간 지점을 커서(Cursor)로 간주한다.
+    문자입력 - 왼쪽 스택에 원소 삽입
+    - (백스페이스바) 입력 - 왼쪽 스택에 끝 데이터 삭제
+    < (왼쪽 화살표) 입력 - 왼쪽 스택에서 오른쪽 스택으로 데이터 옴김
+    < (오른쪽 화살표) 입력 - 오른쪽 스택에서 왼쪽 스택으로 데이터 옴김
+
+    2개의 스택을 합치는데 오른쪽 스택은 뒤집어서 합쳐줌
+
 """
 
 def Q_5397(test_case_num):
+    for _ in range(0, test_case_num):
+        left_stack = []
+        right_stack = []
+        # password = "<<BP<A>>Cd-"
+        password = input()
+        for data in password:
+            if data == '-':
+                if left_stack:
+                    left_stack.pop()
+            elif data == '<':
+                if left_stack:
+                    right_stack.append(left_stack.pop())
+            elif data == '>':
+                if right_stack:
+                    left_stack.append(right_stack.pop())
+            else:
+                left_stack.append(data)
 
-    fo
-
+        left_stack.extend(reversed(right_stack))
+        print(''.join(left_stack))
     return
 
-
-Q_Q_5397(int(input()))
+# Q_5397(1)
+Q_5397(int(input()))
