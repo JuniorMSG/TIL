@@ -43,9 +43,9 @@ def Q10814_test(testCase):
 def Q10814_01():
     n = int(input())
     array = []
-    for data in range(n):
+    for _ in range(n):
         age, name = input().split(" ")
-        array.append((age, name))
+        array.append((int(age), name))
 
     array = sorted(array, key=lambda x: x[0])
     for data in array:
