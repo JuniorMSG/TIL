@@ -4,6 +4,9 @@
 * [02.](#)
 * [03.](#)
 
+## Reference
+[원티드-기술면접이란](https://blog.naver.com/wantedlab/221766543982)
+
 [뒤로](README.md) / [위로](#기술면접)
 
 ## 기술면접이란?
