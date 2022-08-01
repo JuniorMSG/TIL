@@ -1,4 +1,4 @@
-# TIL
+  # TIL
 * [000_작성시 복사할 폴더](000_copyFolder/README.md)
 
 ## 주요목표
@@ -22,13 +22,9 @@
 
 ## 신규 기술 배우기 
 ### Back-End 
-- [ ] Spring Boot 
-- [ ] ORM : JPA or Hibernate
+- [x] Spring Boot 
+- [x] ORM : JPA or Hibernate
 - [ ] Docker
-
-### Front-End 
-- [ ] JS : ES6, JS에 대하여
-- [ ] React & Redux : 나중에 
 
 ## Code Quality and TDD
 ### Clean-Code and Code Quality
@@ -37,6 +33,9 @@
   - [ ] 코드에서 리팩토링을 적용해보기 
   - 
 ### Tdd (test driven development)
+
+
+
 
 
 ### 세가지 유형의 기술

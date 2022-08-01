@@ -1,5 +1,4 @@
-# [191]_웹기초
-## [191_02]_Transaction.md
+# Transaction
 ***[WIKI](https://ko.wikipedia.org/wiki/ACID)***
 
 # ACID (Atomic Consistency Isolation Durability)
@@ -30,7 +29,7 @@
 ---
 
 # 스프링은 어떻게 트랜잭션을 관리하는가?
-![img_6.png](rsc/[191_02]_Transaction_001.png)
+![1.png](rsc/02_Transaction_001.png)
 
 
 ## raw-level
@@ -88,17 +87,15 @@
 
 
 
-![img.png](rsc/[191_02]_Transaction_002.png)
-
-![img_2.png](rsc/[191_02]_Transaction_003.png)
-
+![2.png](rsc/02_Transaction_002.png)
+![3.png](rsc/02_Transaction_003.png)
 
 ### Invocation
-![img_3.png](rsc/[191_02]_Transaction_004.png)
+![4.png](rsc/02_Transaction_004.png)
 
 ### Joinpoint
 
-![img_4.png](rsc/[191_02]_Transaction_005.png)  
+![5.png](rsc/02_Transaction_005.png)  
 
     This interface represents a generic runtime joinpoint (in the AOP terminology).
     A runtime joinpoint is an event that occurs on a static joinpoint (i.e. a location in a program). 
@@ -115,4 +112,4 @@
 
 
 ## TransactionAspectSupport
-![img_5.png](rsc/[191_02]_Transaction_006.png)
+![5.png](rsc/02_Transaction_006.png)  
