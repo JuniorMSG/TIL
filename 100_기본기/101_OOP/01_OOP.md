@@ -54,7 +54,6 @@
   public interface Rechargeable{
     void charge();
   }
-  
 ```   
 
 ```Java
