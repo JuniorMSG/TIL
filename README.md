@@ -8,31 +8,45 @@
 
 
 ## To-Do List 목표 
-1. 내가 애매하게 아는 부분들을 잘 정리해보자.
+1. 코드의 질에 대해서 생각하자.
 2. 새로운 기술을 습득하고 사이드 프로젝트를 진행해보자.
-3. 
-
-### CS Level-Up
-- [x] Algorithm and Data-Structure(22.07.26 ~)
-  - [ ] 하루에 1~2문제 기본 알고리즘 풀기
-    - 너무 어려운 것 x 알고리즘 및 문제에 대해서 익숙해지기 위해서 풀어보는 것.
-### Back-End
-- [ ] Spring
+3. CS 지식을 나눠서 꾸준히 학습해보자!
+    - 애매하게 아는것을 잘 정리하여 정확하게 아는 것으로 만들자
+    - 남에게 설명 할 수 있을 정도로 공부한다고 생각하면 된다!.
 
 
-## 신규 기술 배우기 
-### Back-End 
-- [x] Spring Boot 
-- [x] ORM : JPA or Hibernate
-- [ ] Docker
-
-## Code Quality and TDD
+## 1. Code Quality and TDD
+    코드의 질을 높히는 방법에 대해서 고민해보자
+    그런 기술들이 프레임워크에선 어떤 방식으로 적용됐는가?
+    
 ### Clean-Code and Code Quality
 - [ ] 리팩토링 강의 듣고 깨끗한 코드가 무엇인지 정의해보고 공부하기. 
   - [ ] 드림코딩 엘리 강의 다 들어보기 
   - [ ] 코드에서 리팩토링을 적용해보기 
-  - 
 ### Tdd (test driven development)
+
+## 2. 새로운 기술을 배워보자! 
+    목표는 자주 사용하는 BackEnd 기술을 습득하는 하고 
+    사이드 프로젝트를 진행하는 것!
+    
+### Back-End 
+- [x] Spring Boot 
+- [x] ORM : JPA or Hibernate
+- [ ] DJango
+- [ ] Docker
+
+## 3. CS Level-Up
+- [x] Algorithm and Data-Structure(22.07.26 ~)
+  - [ ] 하루에 1문제 기본 알고리즘 풀기
+    - 문제를 푸는 것이 중요한게 아니라
+    - 공부하는 습관과 생각하는 습관을 기르자는 목표로 할 것 
+    - 너무 어려운 것 x 알고리즘 및 문제에 대해서 익숙해지기
+    - Git 블로그의 하나의 목차에 꾸준히 작성할 것 ! 
+   
+ - [ ] 무언가 추가 예정~?
+
+
+
 
 
 
