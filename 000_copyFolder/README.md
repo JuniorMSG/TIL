@@ -5,4 +5,8 @@
 [뒤로](../README.md)  
 
 
+![img_1.png](img_1.png)
+![img.png](img.png)
+
+![img_2.png](img_2.png)
 ## 무엇을 할 것인가?
