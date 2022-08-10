@@ -1,6 +1,3 @@
-# 711_MSA
-## 01_MSAvsMonolithic.md
-
 # 마이크로 서비스 (Micro Service) vs 모놀리틱 (Monolithic) 구조
 
 ## 모놀리틱 (Monolithic) 구조
