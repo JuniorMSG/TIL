@@ -1,5 +1,19 @@
-  # TIL
+# TIL
 * [000_작성시 복사할 폴더](000_copyFolder/README.md)
+
+## 1XX 개발자의 기본기
+* [101_ Git 사용법 / 활용법](100_기본기/101_Git/README.md)
+* [102_디자인 패턴](100_기본기/101_Git/README.md)
+* [103_개념, 용어 정리](100_기본기/103_개념정리/REDEME.md)
+  * [01_DataBase](100_기본기/103_개념정리/01_DataBase/README.md)
+  * [02_DevOps](100_기본기/103_개념정리/02_DevOps/README.md)
+  * [03_WEB](100_기본기/103_개념정리/03_WEB/README.md)
+  * [09_기타용어](100_기본기/103_개념정리/09_기타용어/README.md)
+* [104_데이터 구조](100_기본기/104_data_structure/README.md)
+* [105_알고리즘 이론](100_기본기/105_algorithm_theory/README.md)
+* [106_ 매일 매일 알고리즘 연습문제](100_기본기/106_algorithm_one/README.md)
+
+
 
 ## 주요목표
 1. 내가 정확하게 알고 있는지 기초를 공부하고 정리하기
