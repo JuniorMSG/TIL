@@ -124,5 +124,5 @@
     • MyBatis: 자바 메소드를 SQL 실행 결과와 매핑
 
 
-![img.png](img.png)
-![img_1.png](img_1.png)
+![img.png](rsc/img.png)
+![img_1.png](rsc/img_1.png)

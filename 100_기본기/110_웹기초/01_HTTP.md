@@ -1,10 +1,4 @@
-# [191]_웹기초
-## [191_01]_HTTP 스펙 
-***[wiki](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)***  
-***[mozilla](https://developer.mozilla.org/ko/docs/Web/HTTP/Messages)***
----
-
-# HTTP(Hyper Text Transfer Protocol)
+# HTTP(Hyper Text Transfer Protocol)  
 * 그냥 문자가 아닌 Hyper 텍스트를 전송하는데 활용하는 프로토콜
 * 요청과 응답이 정의됨.
 
@@ -28,10 +22,7 @@ Accept: application/json
 }
 ```
 
----
-
 ## HTTP Response 메시지 스펙
-
 - 첫째줄: 상태라인(200, 500, 등)
 - 두번째줄부터 줄바꿈 나오기 전까지: Header
 - 헤더에서 줄바꿈 이후: Request Body
@@ -51,3 +42,8 @@ Connection: keep-alive
 }
 ```
 
+
+
+### Reference
+***[wiki](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)***  
+***[mozilla](https://developer.mozilla.org/ko/docs/Web/HTTP/Messages)***
