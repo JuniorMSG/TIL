@@ -17,4 +17,4 @@
   * [02. Bolierplate Code](09_ETC/02_Boilerplate_Code.md)
 
 
-[뒤로](../README.md)
+[뒤로](../../README.md)
