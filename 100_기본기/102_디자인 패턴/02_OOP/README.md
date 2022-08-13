@@ -213,21 +213,21 @@ class Student {
 		  this.money -= 1500;
 	 }
 }
-```
+```   
 ![img.png](https://user-images.githubusercontent.com/22822369/184500142-c23e4695-39b5-4c9f-a33d-90b10e89ad3e.png)
 
 
 
 ### 일반화 관계 (generalization)
 - 객체 지향에서 상속을 표현할 때
-- 일반적인 클래스(상위 클래스)를 보다 구체적인 클래스(하위 클래스)가 상속함
+- 일반적인 클래스(상위 클래스)를 보다 구체적인 클래스(하위 클래스)가 상속함  
 ![img.png](https://user-images.githubusercontent.com/22822369/184500153-e5a116c8-a7f1-460f-9749-21aa7694e6e3.png)
 
 
 ### 실체화 관계 ( realization )
 
 - 기능이 선언된 인터페이스를 구현하는 클래스는 선언된 기능을 구현할 책임이 있음
-- 여러 클래스가 하나의 인터페이스를 구현함으로써 다형성을 제공함
+- 여러 클래스가 하나의 인터페이스를 구현함으로써 다형성을 제공함  
 ![img.png](https://user-images.githubusercontent.com/22822369/184500159-06b3627a-6dae-4aaa-8675-2b6947c956d4.png)
 
 
