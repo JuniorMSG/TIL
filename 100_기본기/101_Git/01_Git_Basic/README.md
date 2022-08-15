@@ -110,6 +110,13 @@ git branch -M main
 ### 병렬로 진행 후
 ![img_7.png](img_7.png)
 
+### pull-request
+    git push origin pullRequest
+![img_17.png](img_17.png)
+![img_18.png](img_18.png)
+![img_19.png](img_19.png)
+![img_20.png](img_20.png)
+
 ## Merge
     git branch main
     git merge feature-#2
@@ -140,6 +147,8 @@ git branch -M main
     로그가 복잡해지기 때문에 사용하는거고..
     간단하고 짧은 브랜치들은 깔끔하게 정리 가능하다. 
 
+
+
 ### 언제 사용하면 될까요
     가이드에 따라서 사용하면 된다.
     branching/merge 가이드
@@ -157,3 +166,24 @@ git branch -M main
 |특정 시점으로 돌아가며 코드 전부 초기화 |git reset --hard commitID|협업시 사용금지|
 |리셋인데 변동사항 지우지 말고 스테이징 상태|git reset --soft commitID||
 |리셋인데 변동사항 지우지 말고 언스테이징 상태|git reset --mixed commitID||
+
+
+## git 브랜치 전략
+### GitFlow 전략
+|브랜치 종류|용도|주의사항|
+|---|---|---|
+|main|나는 메인|
+|develop|개발용|
+|feature|develop에 기능 추가용|
+|release|develop -> main 최종 테스트|
+|hotfix|main 브랜치에서 버그 발생시 빠른 해결을 위해서|
+ 
+![img_22.png](img_22.png)
+
+### Trunk - Based 전략
+    테스트 코드를 잘 만들어야함. (바로바로 올리니까!..)
+![img_21.png](img_21.png)
+
+### CI/CD
+    최근 많이 나오는 CI/CD 형식으로 개발하는 곳에서 trunk-based 개발방식을 적용하고..
+    그만큼 테스트 코드를 잔뜩 만듭니다.
