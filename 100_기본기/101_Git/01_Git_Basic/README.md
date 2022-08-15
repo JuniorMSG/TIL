@@ -65,4 +65,22 @@ https://git-scm.com/
 ![img_3.png](img_3.png)
 
 ## branch
+    기존 코드를 변경하지 않고 복사본을 만들고 작업한다고 생각하면 된다.
+
+### 명령어
+    git branch feature-#2
+    git switch feature-#2
+![img_5.png](img_5.png)
+
+#### 다른 툴에서 보기
+    이렇게 나온다.
+![img_6.png](img_6.png)
+
+### 병렬로 진행 후
+![img_7.png](img_7.png)
+
+### Merge
+    git merge feature-#2
+    다른 파일 수정시 - 정상 엔딩
+    같은 파일의 같을 줄 수정시 - 충돌 엔딩 
 
