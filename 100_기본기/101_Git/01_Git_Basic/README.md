@@ -96,6 +96,8 @@ git branch -M main
 
     fetch - 원격저장소 신규 commit 가져오기
     최신 원격저장소 데이터를 가져온다. 충돌나면 해결은 수동으로.. 
+![image](https://user-images.githubusercontent.com/22822369/184629941-e2832e2e-381e-4439-957d-3b45c6fb1c6d.png)
+
 
 #### 협업
     Settings - Collaborators에 등록해줘야함
