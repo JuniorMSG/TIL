@@ -68,8 +68,11 @@ https://git-scm.com/
     기존 코드를 변경하지 않고 복사본을 만들고 작업한다고 생각하면 된다.
 
 ### 명령어
-    git branch feature-#2
-    git switch feature-#2
+|기능|명령어|
+|---|---|
+|추가|git branch feature-#2|
+|이동|git switch feature-#2|
+|삭제|git branch -d feature-#2| 
 ![img_5.png](img_5.png)
 
 #### 다른 툴에서 보기
@@ -79,8 +82,34 @@ https://git-scm.com/
 ### 병렬로 진행 후
 ![img_7.png](img_7.png)
 
-### Merge
+## Merge
+    git branch main
     git merge feature-#2
     다른 파일 수정시 - 정상 엔딩
-    같은 파일의 같을 줄 수정시 - 충돌 엔딩 
+    같은 파일의 같을 줄 수정시 - 충돌 엔딩 (수동으로 해결해야 한다.)
+![img_9.png](img_9.png)
+![img_8.png](img_8.png)
 
+### 1. 3-way merge
+### 2. fast-forward merge
+### 3. rebase & fast-forward merge
+    git branch feature-#2
+    git merge main
+
+#### 사용이유
+    3-way merge가 너무 많아지면 로그가 복잡하기 때문에..
+    간단하고 짧은 브랜치들은 깔끔하게 정리 가능하다. 
+    Conflict 가 자주 발생한다.
+
+### 4. squash and merge
+    git merge --squash 새브랜치
+
+#### 사용이유
+    로그가 복잡해지기 때문에 사용하는거고..
+    간단하고 짧은 브랜치들은 깔끔하게 정리 가능하다. 
+
+### 언제 사용하면 될까요
+    가이드에 따라서 사용하면 된다.
+    branching/merge 가이드
+    안중요한 브랜치는 squash
+    feature / develop 브랜치는 3-way merge
