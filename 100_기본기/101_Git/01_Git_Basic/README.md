@@ -7,7 +7,7 @@
 * [06. git 브랜치 전략](#git-브랜치-전략)
 
 
-[뒤로](../README.md)  / [위로](깃-기본-사용법) 
+[뒤로](../README.md)  / [위로](#깃-기본-사용법) 
 
 
 ## Git을 왜 사용하는가?
@@ -15,8 +15,6 @@
     과거로 되돌리기 가능.
     히스토리 보기 가능!
     범인찾기 가능!(-_-)
-
-[뒤로](../README.md)  / [위로](깃-기본-사용법) 
 
 ### 기본 셋팅
 https://git-scm.com/
@@ -42,11 +40,12 @@ git branch -M main
 ![image](https://user-images.githubusercontent.com/22822369/184626026-fb5694f9-7274-466b-a974-8f011faa466f.png)
 ![img_15](https://user-images.githubusercontent.com/22822369/184626044-0678f456-a30c-48db-bf2d-1204cfc48f3c.png)
 
+[뒤로](../README.md)  / [위로](#깃-기본-사용법) 
+
 ## 기본 명령어
     git add -> staging area -> git commit -> push -> repository 
 ![img](https://user-images.githubusercontent.com/22822369/184626073-d25fd5e0-669e-4ed4-98f3-261538d425bd.png)
 
-[뒤로](../README.md)  / [위로](깃-기본-사용법) 
 
 ### 상태보기 
     git status
@@ -98,7 +97,8 @@ git branch -M main
 #### GitKraKen
 ![img_3](https://user-images.githubusercontent.com/22822369/184626118-8cd2adbf-78d7-45b4-b055-e1011bf32e6d.png)
 
-[뒤로](../README.md)  / [위로](깃-기본-사용법) 
+
+[뒤로](../README.md)  / [위로](#깃-기본-사용법) 
 
 ## branch
     기존 코드를 변경하지 않고 복사본을 만들고 작업한다고 생각하면 된다.
@@ -125,7 +125,7 @@ git branch -M main
 ![img_19](https://user-images.githubusercontent.com/22822369/184626227-6bdfba05-0019-4a28-abed-0c243f805455.png)
 ![img_20](https://user-images.githubusercontent.com/22822369/184626234-d518600e-2b43-4391-a7c5-3dc17ebf790e.png)
 
-[뒤로](../README.md)  / [위로](깃-기본-사용법) 
+[뒤로](../README.md)  / [위로](#깃-기본-사용법) 
 
 ## Merge
     git branch main
@@ -166,7 +166,8 @@ git branch -M main
     feature / develop 브랜치는 3-way merge
 
 
-[뒤로](../README.md)  / [위로](깃-기본-사용법) 
+
+[뒤로](../README.md)  / [위로](#깃-기본-사용법) 
 
 ## 되돌리기
 |기능|명령어|주의사항|
@@ -181,7 +182,7 @@ git branch -M main
 |리셋인데 변동사항 지우지 말고 언스테이징 상태|git reset --mixed commitID||
 
 
-[뒤로](../README.md)  / [위로](깃-기본-사용법) 
+[뒤로](../README.md)  / [위로](#깃-기본-사용법) 
 
 ## git 브랜치 전략
 ### GitFlow 전략
