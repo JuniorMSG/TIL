@@ -65,4 +65,13 @@ https://git-scm.com/
 ![img_3.png](img_3.png)
 
 ## branch
+    기존 코드를 변경하지 않고 복사본을 만들고 작업한다고 생각하면 된다.
 
+### 명령어
+    git branch feature-#2
+    git switch feature-#2
+![img_5.png](img_5.png)
+
+#### 다른 툴에서 보기
+    이렇게 나온다.
+![img_6.png](img_6.png)
