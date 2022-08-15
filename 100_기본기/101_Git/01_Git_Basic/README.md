@@ -20,14 +20,30 @@ https://git-scm.com/
     여차저차! 설치를 하고~~
 
 ### 이메일 및 이름 등록
-    git config --global user.email myEmail.naver.com
-    git config --global user.name UserName
+```
+git config --global user.email myEmail.naver.com
+git config --global user.name UserName
+```
+
+
+### 메인 브렌치 설정
+```
+git branch -M main
+```
     
 
-
+### 원격 Repository
+    git이 파일 기록하는 장소 .git 폴더에서 관리함
+    1. 컴퓨터가 고장나도 안전
+    2. 협업에서 필수 
+![img_14.png](img_14.png)
+![img_15.png](img_15.png)
 ## 기본 명령어
     git add -> staging area -> git commit -> push -> repository 
 ![img.png](img.png)
+
+### 상태보기 
+    git status
 
 ### add
 |기능|명령어|
@@ -41,9 +57,13 @@ https://git-scm.com/
 
 ### add + commit
     git commit -a -m '수정본'
-    
-### 상태보기 
-    git status
+
+### push
+```
+git push -u 저장소주소 브랜치명
+```
+
+
 
 ### 로그보기
     git log --all --oneline
@@ -87,14 +107,18 @@ https://git-scm.com/
     git merge feature-#2
     다른 파일 수정시 - 정상 엔딩
     같은 파일의 같을 줄 수정시 - 충돌 엔딩 (수동으로 해결해야 한다.)
-![img_9.png](img_9.png)
+
 ![img_8.png](img_8.png)
 
 ### 1. 3-way merge
+![img_10.png](img_10.png)
 ### 2. fast-forward merge
+![img_11.png](img_11.png)
 ### 3. rebase & fast-forward merge
     git branch feature-#2
     git merge main
+![img_12.png](img_12.png)
+
 
 #### 사용이유
     3-way merge가 너무 많아지면 로그가 복잡하기 때문에..
@@ -103,7 +127,7 @@ https://git-scm.com/
 
 ### 4. squash and merge
     git merge --squash 새브랜치
-
+![img_13.png](img_13.png)
 #### 사용이유
     로그가 복잡해지기 때문에 사용하는거고..
     간단하고 짧은 브랜치들은 깔끔하게 정리 가능하다. 
@@ -113,3 +137,15 @@ https://git-scm.com/
     branching/merge 가이드
     안중요한 브랜치는 squash
     feature / develop 브랜치는 3-way merge
+
+## 되돌리기
+|기능|명령어|주의사항|
+|---|---|---|
+|최근 커밋시점으로 이동|git restore||
+|특정 커밋시점으로 이동|git restore --source commitID||
+|스테이징 취소|git restore --staged aaa.py||
+|커밋 취소|git revert commitID1 commitID2||
+|방금 커밋 취소|git revert HEAD||
+|특정 시점으로 돌아가며 코드 전부 초기화 |git reset --hard commitID|협업시 사용금지|
+|리셋인데 변동사항 지우지 말고 스테이징 상태|git reset --soft commitID||
+|리셋인데 변동사항 지우지 말고 언스테이징 상태|git reset --mixed commitID||
