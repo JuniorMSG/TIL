@@ -3,8 +3,6 @@
 * [02. 기본적인 명령어](#기본-명령어)
 * [03. branch](#branch)
 * [04. Merge](#merge)
-* [05. 되돌리기 (revert, restore)](#되돌리기)
-* [06. git 브랜치 전략](#git-브랜치-전략)
 
 
 [뒤로](../README.md)  / [위로](#깃-기본-사용법) 
@@ -90,12 +88,26 @@ git branch -M main
     여러명이 작업할 경우 남이 먼저 push했을 경우 push를 할 수 없다.
 ![image](https://user-images.githubusercontent.com/22822369/184629774-709dda76-cf4b-492c-bd47-6d5bd583e021.png)
 
+### 되돌리기
+|기능|명령어|주의사항|
+|---|---|---|
+|최근 커밋시점으로 이동|git restore||
+|특정 커밋시점으로 이동|git restore --source commitID||
+|스테이징 취소|git restore --staged aaa.py||
+|커밋 취소|git revert commitID1 commitID2||
+|방금 커밋 취소|git revert HEAD||
+|특정 시점으로 돌아가며 코드 전부 초기화 |git reset --hard commitID|협업시 사용금지|
+|리셋인데 변동사항 지우지 말고 스테이징 상태|git reset --soft commitID||
+|리셋인데 변동사항 지우지 말고 언스테이징 상태|git reset --mixed commitID||
+
 ### pull
     git pull 
     git fetch + git merge 라고 생각하면 편함
 
     fetch - 원격저장소 신규 commit 가져오기
     최신 원격저장소 데이터를 가져온다. 충돌나면 해결은 수동으로.. 
+![image](https://user-images.githubusercontent.com/22822369/184629941-e2832e2e-381e-4439-957d-3b45c6fb1c6d.png)
+
 
 #### 협업
     Settings - Collaborators에 등록해줘야함
@@ -149,6 +161,30 @@ git branch -M main
 ![img_19](https://user-images.githubusercontent.com/22822369/184626227-6bdfba05-0019-4a28-abed-0c243f805455.png)
 ![img_20](https://user-images.githubusercontent.com/22822369/184626234-d518600e-2b43-4391-a7c5-3dc17ebf790e.png)
 
+### GitFlow 전략
+|브랜치 종류|용도|주의사항|
+|---|---|---|
+|main|나는 메인|
+|develop|개발용|
+|feature|develop에 기능 추가용|
+|release|develop -> main 최종 테스트|
+|hotfix|main 브랜치에서 버그 발생시 빠른 해결을 위해서|
+ 
+<img src="https://user-images.githubusercontent.com/22822369/184626291-63289ed0-bab7-4d3d-a6bb-b09673a91580.png" width="100%" height="100%"/>  
+
+### Trunk - Based 전략
+    테스트 코드를 잘 만들어야함. (바로바로 올리니까!..)
+    
+<img src="https://user-images.githubusercontent.com/22822369/184626302-eaabd329-d71c-4376-ac65-7047b97c0c08.png" width="100%" height="100%"/>
+
+### CI/CD
+    최근 많이 나오는 CI/CD 형식으로 개발하는 곳에서 trunk-based 개발방식을 적용하고..
+    그만큼 테스트 코드를 잔뜩 만듭니다.
+   
+
+
+
+
 [뒤로](../README.md)  / [위로](#깃-기본-사용법) 
 
 ## Merge
@@ -184,7 +220,7 @@ git branch -M main
 
 
 ### 언제 사용하면 될까요
-    가이드에 따라서 사용하면 된다.
+    프로젝트 가이드에 따라서 사용하면 된다.
     branching/merge 가이드
     안중요한 브랜치는 squash
     feature / develop 브랜치는 3-way merge
@@ -193,41 +229,4 @@ git branch -M main
 
 [뒤로](../README.md)  / [위로](#깃-기본-사용법) 
 
-## 되돌리기
-|기능|명령어|주의사항|
-|---|---|---|
-|최근 커밋시점으로 이동|git restore||
-|특정 커밋시점으로 이동|git restore --source commitID||
-|스테이징 취소|git restore --staged aaa.py||
-|커밋 취소|git revert commitID1 commitID2||
-|방금 커밋 취소|git revert HEAD||
-|특정 시점으로 돌아가며 코드 전부 초기화 |git reset --hard commitID|협업시 사용금지|
-|리셋인데 변동사항 지우지 말고 스테이징 상태|git reset --soft commitID||
-|리셋인데 변동사항 지우지 말고 언스테이징 상태|git reset --mixed commitID||
 
-
-[뒤로](../README.md)  / [위로](#깃-기본-사용법) 
-
-## git 브랜치 전략
-### GitFlow 전략
-|브랜치 종류|용도|주의사항|
-|---|---|---|
-|main|나는 메인|
-|develop|개발용|
-|feature|develop에 기능 추가용|
-|release|develop -> main 최종 테스트|
-|hotfix|main 브랜치에서 버그 발생시 빠른 해결을 위해서|
- 
-<img src="https://user-images.githubusercontent.com/22822369/184626291-63289ed0-bab7-4d3d-a6bb-b09673a91580.png" width="50%" height="50%"/>  
-
-### Trunk - Based 전략
-    테스트 코드를 잘 만들어야함. (바로바로 올리니까!..)
-    
-<img src="https://user-images.githubusercontent.com/22822369/184626302-eaabd329-d71c-4376-ac65-7047b97c0c08.png" width="50%" height="50%"/>
-
-### CI/CD
-    최근 많이 나오는 CI/CD 형식으로 개발하는 곳에서 trunk-based 개발방식을 적용하고..
-    그만큼 테스트 코드를 잔뜩 만듭니다.
-    
-    
-[뒤로](../README.md)  / [위로](깃-기본-사용법) 
