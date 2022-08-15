@@ -75,3 +75,12 @@ https://git-scm.com/
 #### 다른 툴에서 보기
     이렇게 나온다.
 ![img_6.png](img_6.png)
+
+### 병렬로 진행 후
+![img_7.png](img_7.png)
+
+### Merge
+    git merge feature-#2
+    다른 파일 수정시 - 정상 엔딩
+    같은 파일의 같을 줄 수정시 - 충돌 엔딩 
+
