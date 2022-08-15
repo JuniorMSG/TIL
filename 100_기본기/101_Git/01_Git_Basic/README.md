@@ -59,10 +59,18 @@ git branch -M main
     git commit -a -m '수정본'
 
 ### push
-```
-git push -u 저장소주소 브랜치명
-```
+    git push -u 저장소주소 브랜치명
+    여러명이 작업할 경우 남이 먼저 push했을 경우 push를 할 수 없다.
+### pull
+    git pull 
+    git fetch + git merge 라고 생각하면 편함
 
+    fetch - 원격저장소 신규 commit 가져오기
+    최신 원격저장소 데이터를 가져온다. 충돌나면 해결은 수동으로.. 
+
+#### 협업
+    Settings - Collaborators에 등록해줘야함
+![img_16.png](img_16.png)
 
 
 ### 로그보기
