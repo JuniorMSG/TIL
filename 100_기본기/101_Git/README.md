@@ -1,5 +1,6 @@
 # 깃 / 깃허브 ~
-* [01. 등록되지 않은 프로젝트 등록하는 방법  ](01_project_set.md)
+* [01. 깃허브 기초](01_Git_Basic/README.md)
+* [02. 깃허브 기타 등록되지 않은 프로젝트 등록하는 방법  ](99_Git_ETC/01_project_set.md)
 * [02. 컨텐츠 2번 ](02_content_02.md)
 
 [뒤로](../../README.md)  

@@ -5,7 +5,7 @@
 
 ### Reference  
 
-[뒤로](README.md) / [위로](#컨탠츠-제목)
+[뒤로](../README.md) / [위로](#컨탠츠-제목)
 
 ## 1. 프로젝트 등록하기
 ### 프로젝트 등록에는 2가지 방법이 있다
@@ -27,13 +27,10 @@
     4. git push origin master
 
 
-![img_1.png](rsc/01_add_git_01.png)   
-![img.png](rsc/01_add_git_02.png)  
-![img](rsc/01_add_git_03.png)   
+![img_1.png](../rsc/01_add_git_01.png)   
+![img.png](../rsc/01_add_git_02.png)  
+![img](../rsc/01_add_git_03.png)   
  
 
-[뒤로](README.md) / [위로](#컨탠츠-제목)
+[뒤로](../README.md) / [위로](#컨탠츠-제목)
 
-
-## 3
-[뒤로](README.md) / [위로](#컨탠츠-제목)
