@@ -36,11 +36,11 @@ git branch -M main
     git이 파일 기록하는 장소 .git 폴더에서 관리함
     1. 컴퓨터가 고장나도 안전
     2. 협업에서 필수 
-![img_14.png](img_14.png)
-![img_15.png](img_15.png)
+![image](https://user-images.githubusercontent.com/22822369/184626026-fb5694f9-7274-466b-a974-8f011faa466f.png)
+![img_15](https://user-images.githubusercontent.com/22822369/184626044-0678f456-a30c-48db-bf2d-1204cfc48f3c.png)
 ## 기본 명령어
     git add -> staging area -> git commit -> push -> repository 
-![img.png](img.png)
+![img](https://user-images.githubusercontent.com/22822369/184626073-d25fd5e0-669e-4ed4-98f3-261538d425bd.png)
 
 ### 상태보기 
     git status
@@ -70,7 +70,7 @@ git branch -M main
 
 #### 협업
     Settings - Collaborators에 등록해줘야함
-![img_16.png](img_16.png)
+![img_16](https://user-images.githubusercontent.com/22822369/184626092-598ee763-c07a-4534-9a0e-ffbd9eeb4cb9.png)
 
 
 ### 로그보기
@@ -86,11 +86,11 @@ git branch -M main
     다양한 툴이 있고.. 툴을 사용하면 더 편하게 볼 수 있다.
 
 #### PyCharm, Git
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
+![img_1](https://user-images.githubusercontent.com/22822369/184626102-552fa4cc-07db-4057-827b-a928be4b72bb.png)
+![img_2](https://user-images.githubusercontent.com/22822369/184626111-75f09a77-6ef6-4e0f-9460-03d3a48ed6bb.png)
 
 #### GitKraKen
-![img_3.png](img_3.png)
+![img_3](https://user-images.githubusercontent.com/22822369/184626118-8cd2adbf-78d7-45b4-b055-e1011bf32e6d.png)
 
 ## branch
     기존 코드를 변경하지 않고 복사본을 만들고 작업한다고 생각하면 된다.
@@ -101,21 +101,21 @@ git branch -M main
 |추가|git branch feature-#2|
 |이동|git switch feature-#2|
 |삭제|git branch -d feature-#2| 
-![img_5.png](img_5.png)
+![img_5](https://user-images.githubusercontent.com/22822369/184626135-052e1446-f5e5-451f-a56c-26cc91b0d572.png)
 
 #### 다른 툴에서 보기
     이렇게 나온다.
-![img_6.png](img_6.png)
+![img_6](https://user-images.githubusercontent.com/22822369/184626147-49d02461-3778-4d10-bd15-fe4d20cbd7a5.png)
 
 ### 병렬로 진행 후
-![img_7.png](img_7.png)
+![img_7](https://user-images.githubusercontent.com/22822369/184626156-8b2beafd-b8fe-40a4-b95a-4d158dcfcbaa.png)
 
 ### pull-request
     git push origin pullRequest
-![img_17.png](img_17.png)
-![img_18.png](img_18.png)
-![img_19.png](img_19.png)
-![img_20.png](img_20.png)
+![img_17](https://user-images.githubusercontent.com/22822369/184626211-3ef0df7f-6743-4942-ab8d-e7201274a680.png)
+![img_18](https://user-images.githubusercontent.com/22822369/184626217-ba3a53f7-08f9-4654-82a9-39c792f5d11c.png)
+![img_19](https://user-images.githubusercontent.com/22822369/184626227-6bdfba05-0019-4a28-abed-0c243f805455.png)
+![img_20](https://user-images.githubusercontent.com/22822369/184626234-d518600e-2b43-4391-a7c5-3dc17ebf790e.png)
 
 ## Merge
     git branch main
@@ -123,16 +123,16 @@ git branch -M main
     다른 파일 수정시 - 정상 엔딩
     같은 파일의 같을 줄 수정시 - 충돌 엔딩 (수동으로 해결해야 한다.)
 
-![img_8.png](img_8.png)
+![img_8](https://user-images.githubusercontent.com/22822369/184626252-897e184a-2dc3-4d28-8f25-0464f271cc62.png)
 
 ### 1. 3-way merge
-![img_10.png](img_10.png)
+![img_10](https://user-images.githubusercontent.com/22822369/184626263-bed812d4-6b76-4bab-9dd5-bf4e17ddaf3d.png)
 ### 2. fast-forward merge
-![img_11.png](img_11.png)
+![img_11](https://user-images.githubusercontent.com/22822369/184626271-24132037-b39d-45da-a439-15e34f5eddad.png)
 ### 3. rebase & fast-forward merge
     git branch feature-#2
     git merge main
-![img_12.png](img_12.png)
+![img_12](https://user-images.githubusercontent.com/22822369/184626279-7616cb3e-7092-4da3-ae13-cdba215391bb.png)
 
 
 #### 사용이유
@@ -142,7 +142,7 @@ git branch -M main
 
 ### 4. squash and merge
     git merge --squash 새브랜치
-![img_13.png](img_13.png)
+![img_13](https://user-images.githubusercontent.com/22822369/184626284-8afce76a-c9d3-4abc-9493-abd11116e3a8.png)
 #### 사용이유
     로그가 복잡해지기 때문에 사용하는거고..
     간단하고 짧은 브랜치들은 깔끔하게 정리 가능하다. 
@@ -178,11 +178,11 @@ git branch -M main
 |release|develop -> main 최종 테스트|
 |hotfix|main 브랜치에서 버그 발생시 빠른 해결을 위해서|
  
-![img_22.png](img_22.png)
+![img_22](https://user-images.githubusercontent.com/22822369/184626291-63289ed0-bab7-4d3d-a6bb-b09673a91580.png)
 
 ### Trunk - Based 전략
     테스트 코드를 잘 만들어야함. (바로바로 올리니까!..)
-![img_21.png](img_21.png)
+![img_21](https://user-images.githubusercontent.com/22822369/184626302-eaabd329-d71c-4376-ac65-7047b97c0c08.png)
 
 ### CI/CD
     최근 많이 나오는 CI/CD 형식으로 개발하는 곳에서 trunk-based 개발방식을 적용하고..
