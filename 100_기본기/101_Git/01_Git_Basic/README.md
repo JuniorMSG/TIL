@@ -22,13 +22,6 @@
     히스토리 보기 가능!
     범인찾기 가능!(-_-)
 
-### 기타 사용하기 편리하게 해주는 툴
-    Source Tree
-    GitKraken
-
-![image](https://user-images.githubusercontent.com/22822369/184628489-7f0d8486-214f-4b4d-8f38-e7ee221f6e7f.png)
-![image](https://user-images.githubusercontent.com/22822369/184628601-8a377b9c-5563-4503-b74f-5b23a81c5cf2.png)
-
 
 ### 기본 셋팅
 https://git-scm.com/
@@ -54,6 +47,14 @@ git branch -M main
 ![image](https://user-images.githubusercontent.com/22822369/184626026-fb5694f9-7274-466b-a974-8f011faa466f.png)
 ![img_15](https://user-images.githubusercontent.com/22822369/184626044-0678f456-a30c-48db-bf2d-1204cfc48f3c.png)
 
+
+### 기타 사용하기 편리하게 해주는 툴
+    Source Tree
+    GitKraken
+
+![image](https://user-images.githubusercontent.com/22822369/184628489-7f0d8486-214f-4b4d-8f38-e7ee221f6e7f.png)
+![image](https://user-images.githubusercontent.com/22822369/184628601-8a377b9c-5563-4503-b74f-5b23a81c5cf2.png)
+
 [뒤로](../README.md)  / [위로](#깃-기본-사용법) 
 
 ## 기본 명령어
@@ -64,6 +65,8 @@ git branch -M main
 ### 상태보기 
     git status
 
+![image](https://user-images.githubusercontent.com/22822369/184629483-620b7b7c-7892-40fc-b862-cf86734f8b96.png)
+
 ### add
 |기능|명령어|
 |---|---|
@@ -71,8 +74,13 @@ git branch -M main
 |파일추가| git add . app.txt|
 |복수 파일 추가 |git add app.txt txt.txt|
 
+![image](https://user-images.githubusercontent.com/22822369/184629608-bf188e55-7caa-4c40-a2f2-e04ee8b96386.png)
+
+
 ### commit 
     git commit -m '수정본'
+
+![image](https://user-images.githubusercontent.com/22822369/184629723-1605f9e5-bc24-4792-a0ae-9fe7d4729c60.png)
 
 ### add + commit
     git commit -a -m '수정본'
@@ -80,6 +88,8 @@ git branch -M main
 ### push
     git push -u 저장소주소 브랜치명
     여러명이 작업할 경우 남이 먼저 push했을 경우 push를 할 수 없다.
+![image](https://user-images.githubusercontent.com/22822369/184629774-709dda76-cf4b-492c-bd47-6d5bd583e021.png)
+
 ### pull
     git pull 
     git fetch + git merge 라고 생각하면 편함
