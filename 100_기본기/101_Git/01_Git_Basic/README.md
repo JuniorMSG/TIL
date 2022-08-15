@@ -100,10 +100,6 @@ git branch -M main
 |리셋인데 변동사항 지우지 말고 스테이징 상태|git reset --soft commitID||
 |리셋인데 변동사항 지우지 말고 언스테이징 상태|git reset --mixed commitID||
 
-
-[뒤로](../README.md)  / [위로](#깃-기본-사용법) 
-
-
 ### pull
     git pull 
     git fetch + git merge 라고 생각하면 편함
