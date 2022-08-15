@@ -57,13 +57,15 @@
 |그래픽 카드|Geforce, AMD|
  
 #### 서로 다른 구현 추상화  
-![구현 추상화](rsc/02_OOP_02_01.png)
+![구현 추상화](https://user-images.githubusercontent.com/22822369/184500099-1d428a9c-a634-4a1e-a9cc-947d9e36ac71.png)
 
 #### 타입 추상화 
     여러 구현 클래스를 대표하는 상위 타입 도출
     흔히 인터페이스 타입으로 추상화
     추상화 타입과 구현은 타입 상속으로 연결
-![타입 추상화](rsc/02_OOP_02_02.png)
+![타입 추상화](https://user-images.githubusercontent.com/22822369/184500110-d51514f9-7d55-4eab-99c7-8b00b6c27ed4.png)
+
+
 
 
 ### 캡슐화
@@ -159,7 +161,7 @@
 - 단방향 연관관계의 경우는 화살표(->)로 표시한다.
 - 양방향 연관관계는 직선(-)으로 표시한다.
 - 클래스간의 연관된 개체의 수를 표현해야 하는 경우에는 선의 끝쪽에 다중성(multiplicity)를 나타낸다.
-![img.png](rsc/02_OOP_04_01.png)
+![img.png](https://user-images.githubusercontent.com/22822369/184500129-ea36f790-d1ba-44e0-9420-36bf7c435aed.png)
 ```java
 public class Student {
 	int studentID;
@@ -167,7 +169,7 @@ public class Student {
 	ArrayList<Subject> subjectList;
 }
 ```
-![img.png](rsc/02_OOP_04_02.png)
+![img.png](https://user-images.githubusercontent.com/22822369/184500133-70f73ec9-117e-4448-bdc8-25d67d45dce8.png)
 
 
 ### 집합 관계 (composition, aggregation)
@@ -211,20 +213,23 @@ class Student {
 		  this.money -= 1500;
 	 }
 }
-```
-![img.png](rsc/02_OOP_04_03.png)
+```   
+![img.png](https://user-images.githubusercontent.com/22822369/184500142-c23e4695-39b5-4c9f-a33d-90b10e89ad3e.png)
+
 
 
 ### 일반화 관계 (generalization)
 - 객체 지향에서 상속을 표현할 때
-- 일반적인 클래스(상위 클래스)를 보다 구체적인 클래스(하위 클래스)가 상속함
-![img.png](rsc/02_OOP_04_04.png)
+- 일반적인 클래스(상위 클래스)를 보다 구체적인 클래스(하위 클래스)가 상속함  
+![img.png](https://user-images.githubusercontent.com/22822369/184500153-e5a116c8-a7f1-460f-9749-21aa7694e6e3.png)
+
 
 ### 실체화 관계 ( realization )
 
 - 기능이 선언된 인터페이스를 구현하는 클래스는 선언된 기능을 구현할 책임이 있음
-- 여러 클래스가 하나의 인터페이스를 구현함으로써 다형성을 제공함
-![img.png](rsc/02_OOP_04_05.png)
+- 여러 클래스가 하나의 인터페이스를 구현함으로써 다형성을 제공함  
+![img.png](https://user-images.githubusercontent.com/22822369/184500159-06b3627a-6dae-4aaa-8675-2b6947c956d4.png)
+
 
 ### 접근 제어자 표시
 | 접근제어자 | 표시 | 설명 |

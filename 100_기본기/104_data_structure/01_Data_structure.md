@@ -111,7 +111,8 @@ print (m_count)
     1. 이메일 처리
     2. 줄을 서는 행위와 유사 현실이랑 비슷 함 (새치기는 없지만!)
 
-![Queue_01](rsc/03_Queues_01.png)
+![03_Queues_01](https://user-images.githubusercontent.com/22822369/184499869-5ea47f85-4c83-42e8-bedf-39ce1c1a0477.png)
+
 
 ### 용어
     Enqueue: 큐에 데이터를 넣는 기능
