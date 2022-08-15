@@ -1,7 +1,10 @@
 # 깃 / 깃허브 ~
-* [01. 깃을 사용하는 이유 & 기본 셋팅](git을-왜-사용하는가)
-* [02. 기본적인 명령어](기본-명령어)
-* [03. branch](branch)
+* [01. 깃을 사용하는 이유 & 기본 셋팅](#git을-왜-사용하는가)
+* [02. 기본적인 명령어](#기본-명령어)
+* [03. branch](#branch)
+* [04. Merge](#merge)
+* [05. 되돌리기 (revert, restore)](#되돌리기)
+* [06. git 브랜치 전략](#git-브랜치-전략)
 
 
 [뒤로](../../README.md)  
@@ -31,13 +34,13 @@ git config --global user.name UserName
 git branch -M main
 ```
     
-
 ### 원격 Repository
     git이 파일 기록하는 장소 .git 폴더에서 관리함
     1. 컴퓨터가 고장나도 안전
     2. 협업에서 필수 
 ![image](https://user-images.githubusercontent.com/22822369/184626026-fb5694f9-7274-466b-a974-8f011faa466f.png)
 ![img_15](https://user-images.githubusercontent.com/22822369/184626044-0678f456-a30c-48db-bf2d-1204cfc48f3c.png)
+
 ## 기본 명령어
     git add -> staging area -> git commit -> push -> repository 
 ![img](https://user-images.githubusercontent.com/22822369/184626073-d25fd5e0-669e-4ed4-98f3-261538d425bd.png)
@@ -104,7 +107,6 @@ git branch -M main
 ![img_5](https://user-images.githubusercontent.com/22822369/184626135-052e1446-f5e5-451f-a56c-26cc91b0d572.png)
 
 #### 다른 툴에서 보기
-    이렇게 나온다.
 ![img_6](https://user-images.githubusercontent.com/22822369/184626147-49d02461-3778-4d10-bd15-fe4d20cbd7a5.png)
 
 ### 병렬로 진행 후
@@ -155,6 +157,7 @@ git branch -M main
     안중요한 브랜치는 squash
     feature / develop 브랜치는 3-way merge
 
+
 ## 되돌리기
 |기능|명령어|주의사항|
 |---|---|---|
@@ -178,11 +181,12 @@ git branch -M main
 |release|develop -> main 최종 테스트|
 |hotfix|main 브랜치에서 버그 발생시 빠른 해결을 위해서|
  
-![img_22](https://user-images.githubusercontent.com/22822369/184626291-63289ed0-bab7-4d3d-a6bb-b09673a91580.png)
+<img src="https://user-images.githubusercontent.com/22822369/184626291-63289ed0-bab7-4d3d-a6bb-b09673a91580.png" width="50%" height="50%"/>  
 
 ### Trunk - Based 전략
     테스트 코드를 잘 만들어야함. (바로바로 올리니까!..)
-![img_21](https://user-images.githubusercontent.com/22822369/184626302-eaabd329-d71c-4376-ac65-7047b97c0c08.png)
+    
+<img src="https://user-images.githubusercontent.com/22822369/184626302-eaabd329-d71c-4376-ac65-7047b97c0c08.png" width="50%" height="50%"/>
 
 ### CI/CD
     최근 많이 나오는 CI/CD 형식으로 개발하는 곳에서 trunk-based 개발방식을 적용하고..
