@@ -103,7 +103,8 @@ git branch -M main
 |---|---|
 |추가|git branch feature-#2|
 |이동|git switch feature-#2|
-|삭제|git branch -d feature-#2| 
+|삭제|git branch -d feature-#2|   
+
 ![img_5](https://user-images.githubusercontent.com/22822369/184626135-052e1446-f5e5-451f-a56c-26cc91b0d572.png)
 
 #### 다른 툴에서 보기
