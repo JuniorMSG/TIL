@@ -5,10 +5,10 @@
 * [101_ Git 사용법 / 활용법](100_기본기/101_Git/README.md)
 * [102_디자인 패턴](100_기본기/102_디자인%20패턴/README.md)
 * [103_개념, 용어 정리](100_기본기/103_개념정리/README.md)
-  * [01_DataBase](100_기본기/103_개념정리/01_DataBase/README.md)
-  * [02_DevOps](100_기본기/103_개념정리/02_DevOps/README.md)
-  * [03_WEB](100_기본기/103_개념정리/03_WEB/README.md)
-  * [09_기타용어](100_기본기/103_개념정리/09_기타용어/README.md)
+  * [01_DataBase](100_기본기/103_개념정리/01_DataBase)
+  * [02_DevOps](100_기본기/103_개념정리/02_DevOps)
+  * [03_WEB](100_기본기/103_개념정리/03_WEB)
+  * [09_기타용어](100_기본기/103_개념정리/09_기타용어)
 * [104_데이터 구조](100_기본기/104_data_structure/README.md)
   * 정리예정
 * [105_알고리즘 이론](100_기본기/105_algorithm_theory/README.md)
@@ -18,10 +18,13 @@
 
 ## 2XX Clean Code
     정리 예정
-## 3XX Back-End Programming
-    정리 예정
-## 4xx Front-End Programming
-    정리 예정
+## 310_Spring
+## 320_Ruby
+* [Ruby Essential](320_Ruby/321_Ruby_Essential/README.md)
+* 
+## 410_JavaScript
+## 420_React
+
 ## 8xx ETC
     정리 예정
 ## 9xx 독서
