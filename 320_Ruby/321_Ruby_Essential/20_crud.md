@@ -14,6 +14,7 @@
     * 마이그레이션 파일
         실제 데이터를 넣을 형식을 결정하는 파일
     * 테스트 파일
+
 ### 할일 
     rails g model post로 파일을 생성한다.
     config/migrate 폴더의 migration 파일을 수정ㅎ나다.
@@ -21,6 +22,10 @@
 
 
 ## Create
+    생성
 ## Read
+    읽기
 ## Update
+    업데이트
 ## Delete
+    삭제
