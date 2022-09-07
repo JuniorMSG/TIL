@@ -17,7 +17,7 @@
 
 ### 할일 
     rails g model post로 파일을 생성한다.
-    config/migrate 폴더의 migration 파일을 수정ㅎ나다.
+    config/migrate 폴더의 migration 파일을 수정한다.
     rake db:migrate
 
 
