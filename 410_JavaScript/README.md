@@ -10,3 +10,10 @@ http://ui.toast.com/tui-chart/
 https://echarts.apache.org/examples/en/index.html  
 https://echarts.apache.org/v4/examples/en/index.html 
 
+
+## location
+
+### replace vs href
+![image](https://user-images.githubusercontent.com/22822369/197454160-54aa0b34-bc99-4eeb-918f-07983d143f11.png)
+
+
