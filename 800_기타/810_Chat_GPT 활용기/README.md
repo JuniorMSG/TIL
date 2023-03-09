@@ -102,3 +102,24 @@ By keeping your methods focused and well-organized, you can create code that's e
 7. 코드를 정기적으로 리팩터링하여 구조와 유지 관리성을 개선합니다. 리팩토링에는 동작을 변경하지 않고 코드 품질을 향상시키기 위해 점진적으로 변경하는 작업이 포함됩니다.
 
 8. 버전 제어를 사용하여 변경 사항을 관리하고 다른 개발자와 협업하십시오. 버전 제어 시스템은 변경 사항을 추적하고, 다른 개발자와 협업하고, 필요한 경우 이전 버전으로 되돌릴 수 있도록 도와줍니다.
+
+
+## elasticsearch
+    Does elasticsearch aggregation affect query results?
+
+
+
+## Explanation
+
+The example performs a search query on a dataset of movies and returns the average rating of movies in each genre. It then performs the same search query but with an aggregation that groups the results by genre.
+
+The output of the first query shows the average rating of all movies in each genre. However, the output of the second query shows the average rating of movies in each genre based on the subset of movies that match the search query.
+
+This demonstrates how Elasticsearch aggregation can affect the query results and highlights the importance of understanding how aggregations work.
+
+## Conclusion
+
+Elasticsearch aggregation can have a significant impact on query results, and it is important to understand how aggregations work in order to use them effectively. This example provides a simple demonstration of how aggregations can affect search results and serves as a starting point for further exploration.
+
+
+
