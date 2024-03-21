@@ -2,7 +2,7 @@
 * [01. 디자인 패턴이란?](01_Design_Pattern/README.md)
 * [02. 객체지향 프로그래밍](02_OOP/README.md)
 
-[뒤로](../../README.md)  
+[뒤로](../README.md)  
 
 
 ## 무엇을 할 것인가?

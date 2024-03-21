@@ -1,63 +1,49 @@
 
 # Today I Learned(TIL) Wiki
 
-## Spring
-## 운영체제
-## 데이터베이스
-## 네트워크
-## 컴퓨터 구조
-## OOP
-## Docker
-## Nginx
-## Redis
-## Java
-## Kotlin
-## Node
-## Vue
-## Kafka
-## Reactive Streams
-## ELK
-## Tool
-## POP it 포스팅
-## 도서
-## 쿠버네티스
-## AWS
-## ELK
-## ETC
-
-
-
-## 1XX 개발자의 기본기
-* [101_ Git 사용법 / 활용법](기본기/101_Git/README.md)
-* [102_디자인 패턴](기본기/102_디자인%20패턴/README.md)
-* [103_개념, 용어 정리](기본기/103_개념정리/README.md)
-  * [01_DataBase](기본기/103_개념정리/01_DataBase)
-  * [02_DevOps](기본기/103_개념정리/02_DevOps)
-  * [03_WEB](기본기/103_개념정리/03_WEB)
-  * [09_기타용어](기본기/103_개념정리/09_기타용어)
-* [104_데이터 구조](기본기/104_data_structure/README.md)
-* [105_알고리즘 이론](기본기/105_algorithm_theory/README.md)
-* [106_ 매일 매일 알고리즘 연습문제](기본기/106_algorithm_one/README.md)
-
-## Clean Code
-## Spring
-## Ruby
-* [Ruby Essential](Ruby/321_Ruby_Essential/README.md)
+# Language & FrameWork
 
 ## JavaScript
-## React
+## Java & Kotlin 
+* [코틀린 스터디 Books - Kotlin In Action](Kotlin%2FKotlin%20In%20Action%2FREADME.md)
+
+[JavaScript](JavaScript)  
+[Spring](Spring)
+[Kotlin](Kotlin)  
+[React](React)
+[Ruby](Ruby)
+
+## Devops
+### ES
+### Docker 
+
+## 기본기
+[Git](Git)  
+[Algorithm](algorithm)  
+[Clean_Code](Clean_Code)  
+[Refactoring](Refactoring)  
+[DataBase](DataBase)  
+[Test Code](Test%20Code)  
+
 ## ETC
+[기타](%EA%B8%B0%ED%83%80)  
+[독서](%EB%8F%85%EC%84%9C)  
+[ETC Tools](ETC%20Tools)  
+[디자인 패턴](%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4)  
+[용어정리](%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC)  
+[자주 사용하는 콘솔명령어](%EC%9E%90%EC%A3%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%BD%98%EC%86%94%EB%AA%85%EB%A0%B9%EC%96%B4)  
+
+
 ## 독서
-
-
-
 ### 읽은책
-* [901_함께 자라기 애자일로 가는 길](독서/901_함께%20자라기%20애자일로%20가는%20길/README.md)
+[함께 자라기 애자일로 가는 길](%EB%8F%85%EC%84%9C%2F%ED%95%A8%EA%BB%98%20%EC%9E%90%EB%9D%BC%EA%B8%B0%20%EC%95%A0%EC%9E%90%EC%9D%BC%EB%A1%9C%20%EA%B0%80%EB%8A%94%20%EA%B8%B8)* [902_Test-Driven Development By Example](독서/902_Test-Driven%20Development%20By%20Example/README.md)
 
 ### 읽을책
-* [902_Test-Driven Development By Example](독서/902_Test-Driven%20Development%20By%20Example/README.md)
-* [903_Clean Code](독서/903_Clean%20Code/README.md)
-* [904_리팩토링 2판](독서/904_리팩토링%202판/README.md)
+[Clean Code](%EB%8F%85%EC%84%9C%2FClean%20Code)
+[Test-Driven Development By Example](%EB%8F%85%EC%84%9C%2FTest-Driven%20Development%20By%20Example)
+[객체지향의 사실과 오해](%EB%8F%85%EC%84%9C%2F%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%9D%98%20%EC%82%AC%EC%8B%A4%EA%B3%BC%20%EC%98%A4%ED%95%B4)
+[리팩토링 2판](%EB%8F%85%EC%84%9C%2F%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%202%ED%8C%90)
+
 
 
 ## 주요목표

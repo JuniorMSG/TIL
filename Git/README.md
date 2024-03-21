@@ -2,7 +2,7 @@
 * [01. 깃허브 기초](01_Git_Basic/README.md)
 * [02. 깃허브 기타 등록되지 않은 프로젝트 등록하는 방법  ](99_Git_ETC/01_project_set.md)
 
-[뒤로](../../README.md)  
+[뒤로](../README.md)  
 
 
 ## 무엇을 할 것인가?

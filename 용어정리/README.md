@@ -10,7 +10,7 @@
 ## 03. WEB
   * [01. HTTP](03_WEB/01_HTTP.md)
   * [02. Transaction](03_WEB/02_Transaction.md)
-  * [03. Session, Cookie, Token](03_WEB/03_Session,%20Cookie,%20Token.md)
+  * [03. Session, Cookie, Token](03_WEB/03_Session, Cookie, Token.md)
   * [04. API](03_WEB/04_API.md)
 
 ## 09. 기타용어
@@ -18,4 +18,4 @@
   * [02. Bolierplate Code](09_ETC/02_Boilerplate_Code.md)
 
 
-[뒤로](../../README.md)
+[뒤로](../README.md)
