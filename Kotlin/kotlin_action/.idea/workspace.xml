@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="019b5b7e-9179-4da9-9b97-71e0a15a5b62" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Java/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin_sample_project/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../용어정리/MVP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../용어정리/MVP2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../용어정리/README_일반용어.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin In Action/01_코틀린이란 무엇이며, 왜 필요한가?.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kotlin In Action/01_코틀린이란 무엇이며, 왜 필요한가?.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin In Action/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kotlin In Action/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2eD7eorI5KnHrrwP3EBGPONqNR8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="019b5b7e-9179-4da9-9b97-71e0a15a5b62" name="Changes" comment="" />
+      <created>1711427394964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711427394964</updated>
+      <workItem from="1711427396612" duration="602000" />
+      <workItem from="1711435497639" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
