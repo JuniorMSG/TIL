@@ -6,7 +6,9 @@
     sudo lsof -i :3000  
     sudo kill -9 6918 
 
-
 ## FE
 ### yarn build 
     yarn build:development
+
+## MAC 응용 프로그램 종료
+CMD + OPT + ESC
