@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Kotlin_basic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/React_Study" vcs="Git" />
   </component>
 </project>
