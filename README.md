@@ -1,61 +1,51 @@
+# Today I Learned (TIL) Wiki
 
-# Today I Learned(TIL) Wiki
-배운다는건...  
-낯섬 -> 익숙함 -> 능숙함 -> 전문가
-이런 과정을 거치는 것이 아닐까?
+## Language & Framework
+- [JavaScript](Languages/JavaScript/README.md)
+- [Java & Kotlin & Spring](Languages/Java/README.md)
+  - [코틀린 스터디 Books - Kotlin In Action](Languages/Kotlin/Kotlin_In_Action/README.md)
+  - [Kotlin_sample_project](Languages/Kotlin/Kotlin_sample_project/README.md)
+- [React](Frontend/React/README.md)
+- [Ruby](Languages/Ruby/README.md)
+- [Python](Languages/Python/README.md)
 
-무지 -> 인지 -> 이해 -> 활용 -> 깨달음 혹은..  
-무지 -> 인지 -> 활용 -> 이해 -> 깨달음 이런식으로 가는게 아닐까?  
+## DevOps
+- [Elasticsearch (ES)](DevOps/Elasticsearch/README.md)
+- [Docker](DevOps/Docker/README.md)
 
-기초는 성장속도의 차이를 가르는 키 포인트가 아닐까? 
+## Tools
+- [AI - ChatGPT, 프롬프트 엔지니어링](/Tools/AI/README.md)
+- [Git - 버전 관리 도구](/Tools/Git/README.md)
+- [Docker - 컨테이너 기술](/Tools/Docker/README.md)
+- [JetBrains IDE - 개발 환경](/Tools/IDE/JetBrains/README.md)
+- [Kafka - 메시지 브로커](/Tools/kafka/README.md)
+- [CSS Framework - 웹 스타일링](/Tools/CssFrameWork/README.md)
+- [클라우드 플랫폼 - Fly.io](/Tools/Cloud/README.md)
+- [Mac OS 명령어](/Tools/Mac%20Command/README.md)
+- [프롬프트 엔지니어링](/Tools/Prompt_Engineering/README.md)
 
-# Language & FrameWork
-
-## JavaScript
-## Java & Kotlin & Spring
-* [코틀린 스터디 Books - Kotlin In Action](Kotlin%2FKotlin%20In%20Action%2FREADME.md)
-* [Kotlin_sample_project](Kotlin_sample_project%2FREADME.md)
-
-## JavaScript  
-## React  
-## Ruby
-## Python
-
-## Devops
-### ES
-### Docker 
-
-
-## Git  
-## Algorithm
-## Clean_Code  
-## Refactoring
-## DataBase  
-## Test Code](Test%20Code)  
-
-## ETC
-## 기타
-## 독서
-## ETC Tools 
-## 디자인 패턴
-## 용어정리
-## 자주 사용하는 콘솔명령어
+## Software Development
+- [Algorithm](CS/Algorithm/README.md)
+- [Clean Code](Methodology/CleanCode/README.md)
+- [Refactoring](Methodology/Refactoring/README.md)
+- [Database](CS/Database/README.md)
+- [Test Code](Testing/README.md)
+- [디자인 패턴](Methodology/DesignPatterns/README.md)
+- [용어정리](CS/Terms/README.md)
 
 ## 독서
-### 읽은책
-* [함께 자라기 애자일로 가는 길](%EB%8F%85%EC%84%9C%2F%ED%95%A8%EA%BB%98%20%EC%9E%90%EB%9D%BC%EA%B8%B0%20%EC%95%A0%EC%9E%90%EC%9D%BC%EB%A1%9C%20%EA%B0%80%EB%8A%94%20%EA%B8%B8)
-* [Test-Driven Development By Example](독서/902_Test-Driven%20Development%20By%20Example/README.md)
+- 읽은 책
+  - [함께 자라기 애자일로 가는 길](Books/Read/함께_자라기_애자일로_가는_길/README.md)
+  - [Test-Driven Development By Example](Books/Read/Test-Driven_Development_By_Example/README.md)
+- 읽을 책
+  - [Clean Code](Books/ToRead/Clean_Code/README.md)
+  - [Test-Driven Development By Example](Books/ToRead/Test-Driven_Development_By_Example/README.md)
+  - [객체지향의 사실과 오해](Books/ToRead/객체지향의_사실과_오해/README.md)
+  - [리팩토링 2판](Books/ToRead/리팩토링_2판/README.md)
 
-### 읽을책
-* [Clean Code](%EB%8F%85%EC%84%9C%2FClean%20Code)
-* [Test-Driven Development By Example](%EB%8F%85%EC%84%9C%2FTest-Driven%20Development%20By%20Example)
-* [객체지향의 사실과 오해](%EB%8F%85%EC%84%9C%2F%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%9D%98%20%EC%82%AC%EC%8B%A4%EA%B3%BC%20%EC%98%A4%ED%95%B4)
-* [리팩토링 2판](%EB%8F%85%EC%84%9C%2F%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%202%ED%8C%90)
-
-    
-## Back-End 
-- [x] Spring Boot 
-- [x] ORM : JPA or Hibernate
+## Back-End
+- [Spring Boot](Backend/Spring/README.md)
+- [ORM: JPA or Hibernate](Backend/ORM/README.md)
 
 ## 주요목표
 1. 내가 정확하게 알고 있는지 기초를 공부하고 정리하기

@@ -1,21 +1,26 @@
-# 개념 / 용어 정리
+# CS (컴퓨터 과학)
 
-## 01. DataBase
-  * [01. RDBMS란?](RDBMS.md)
-  * [02. ORM 이란?](01_DataBase/ORM)
+이 디렉토리는 컴퓨터 과학과 관련된 기초 이론 및 개념에 대한 학습 내용을 담고 있습니다.
 
-## 02. DevOps
-  * [01_CICD.md](CICD)
-  
-## 03. WEB
-  * [01. HTTP](HTTP.md)
-  * [02. Transaction](../FrameWork/Spring/Spring%20Transaction.md)
-  * [03. Session, Cookie, Token](03_WEB/03_Session, Cookie, Token.md)
-  * [04. API](RestAPI)
+## 목차
 
-## 09. 기타용어
-  * [01. MSA vs Monolithic](Microservices architecture.md)
-  * [02. Bolierplate Code](Boilerplate Code.md)
+### 알고리즘
+* [알고리즘 개요](/CS/Algorithm/README.md) - 알고리즘의 기본 개념과 구현 방법
 
+### 자료구조
+* [자료구조 개요](/CS/DataStructure/README.md) - 기본적인 자료구조와 활용 방법
 
-[뒤로](../README.md)
+### 네트워크
+* [네트워크 기초](/CS/Network/README.md) - 컴퓨터 네트워크의 기본 개념과 프로토콜
+
+### OS (운영체제)
+* [운영체제 기초](/CS/OS/README.md) - 운영체제의 기본 개념과 원리
+
+### 용어
+* [CS 용어 모음](/CS/용어/README.md) - 컴퓨터 과학 관련 주요 용어 정리
+
+## 학습 목표
+- 컴퓨터 과학의 핵심 개념 이해
+- 효율적인 알고리즘과 자료구조 습득
+- 운영체제 및 네트워크 기본 원리 학습
+- CS 기초 지식을 바탕으로 실무 개발 역량 강화 
