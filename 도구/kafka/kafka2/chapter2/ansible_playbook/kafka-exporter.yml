@@ -1,7 +1,0 @@
----
-- hosts: kafkahosts
-  become: true
-  connection: ssh
-  roles:
-    - common
-    - kafkaexporter
