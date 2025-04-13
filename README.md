@@ -1,5 +1,10 @@
 # Today I Learned (TIL) Wiki
 
+
+## [Architecture](Architecture)
+- MSA
+- 디자인 패턴
+
 ## Language & Framework
 - [JavaScript](Languages/JavaScript/README.md)
 - [Java & Kotlin & Spring](Languages/Java/README.md)
