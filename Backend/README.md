@@ -5,21 +5,28 @@
 ## 목차
 
 ### 프레임워크
+* Rails
+  * [Design Pattern.md](Backend/Frameworks/Rails/Design%20Pattern.md)
+  * [Duck Typing, 동적타이핑.md](Backend/Frameworks/Rails/Duck%20Typing%2C%20%EB%8F%99%EC%A0%81%ED%83%80%EC%9D%B4%ED%95%91.md)
+  * [Rails VS XXX FrameWork.md](Backend/Frameworks/Rails/Rails%20VS%20XXX%20FrameWork.md)
+  * [루비 온 레일즈의 설계 사상과 특징.md](Backend/Frameworks/Rails/%EB%A3%A8%EB%B9%84%20%EC%98%A8%20%EB%A0%88%EC%9D%BC%EC%A6%88%EC%9D%98%20%EC%84%A4%EA%B3%84%20%EC%82%AC%EC%83%81%EA%B3%BC%20%ED%8A%B9%EC%A7%95.md)
+  * [언어의 특징.md](Backend/Frameworks/Rails/%EC%96%B8%EC%96%B4%EC%9D%98%20%ED%8A%B9%EC%A7%95.md)
 * Spring
-  * [Spring Transaction](/Backend/Frameworks/Spring/Spring%20Transaction.md) - 스프링의 트랜잭션 관리
-  * [기본기](/Backend/Frameworks/Spring/기본기.md) - 스프링 프레임워크의 기본 개념
-  * [동시성이슈](/Backend/Frameworks/Spring/동시성이슈.md) - 스프링에서의 동시성 문제 해결
-  * [많이 사용되는 디자인 패턴](/Backend/Frameworks/Spring/많이%20사용되는%20디자인%20패턴.md) - 스프링에서 많이 사용되는 디자인 패턴
-  * [@PostConstruct](/Backend/Frameworks/Spring/@PostConstruct.md) - PostConstruct 어노테이션 활용
+  * 기본개념
+    * [DI.md](Backend/Frameworks/Spring/%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90/DI.md)
+    * [IOC.md](Backend/Frameworks/Spring/%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90/IOC.md)
+    * [POJO.md](Backend/Frameworks/Spring/%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90/POJO.md)
+    * [Transactional.md](Backend/Frameworks/Spring/%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90/Transactional.md)
+    * [기본.md](Backend/Frameworks/Spring/%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90/%EA%B8%B0%EB%B3%B8.md)
+  * [@PostConstruct.md](Backend/Frameworks/Spring/%40PostConstruct.md)
+  * [Spring Transaction.md](Backend/Frameworks/Spring/Spring%20Transaction.md)\
+  * [기본기.md](Backend/Frameworks/Spring/%EA%B8%B0%EB%B3%B8%EA%B8%B0.md)
+  * [동시성이슈.md](Backend/Frameworks/Spring/%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%B4%EC%8A%88.md)
+  * [많이 사용되는 디자인 패턴.md](Backend/Frameworks/Spring/%EB%A7%8E%EC%9D%B4%20%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94%20%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4.md)
 
-* Ruby on Rails
-  * Rails 프레임워크 관련 내용
+## Refactoring
+  * [Refactoring.md](Backend/Refactoring/Refactoring.md)
 
-### 리팩토링
-* 백엔드 코드 리팩토링 관련 내용
-
-### DevOps
-* 백엔드 개발과 관련된 DevOps 내용
 
 ## 학습 목표
 - 백엔드 프레임워크의 기본 개념 이해
